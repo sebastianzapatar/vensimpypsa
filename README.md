@@ -1,261 +1,209 @@
-# Modelo de Dinámica de Sistemas — Expansión de Generación y Transmisión (Brasil / Chile)
+# System Dynamics Model — Generation and Transmission Expansion (Brazil / Chile)
 
-Modelo de simulación en **Vensim** que representa, mes a mes y por zonas, la expansión
-de capacidad de generación, la expansión de transmisión e interconexiones, la inversión
-en recursos distribuidos (DER), el almacenamiento (BESS), las tecnologías de mejora de
-red (GET, *Grid Enhancing Technologies*) y el despacho horario con y sin congestión.
+This **Vensim** simulation model represents, month by month and by zone, the expansion of generation capacity, transmission and interconnections, investment in distributed energy resources (DER), battery energy storage systems (BESS), grid-enhancing technologies (GETs), and hourly dispatch with and without congestion.
 
-Hay **dos instancias del mismo modelo**, una por país: cambian los datos de entrada,
-no las ecuaciones (la sección de ecuaciones de `ModeloBR.mdl` y `ModeloCL.mdl` es
-idéntica; solo difieren el diagrama y el archivo de datos asociado).
+The repository contains **two instances of the same model**, one for each country. The input data differ, but the equations do not: the equation sections of `ModeloBR.mdl` and `ModeloCL.mdl` are identical; only the diagram and associated data file differ.
 
 ---
 
-## 1. Contenido del repositorio
+## 1. Repository contents
 
 ```
 modelo/
   brasil/
-    ModeloBR.mdl      Modelo Vensim (texto, editable)   — 743 KB
-    ModeloBR.vpmx     Modelo publicado (empaquetado)    — 41 MB
-    BRASIL.xlsx       Libro de datos de entrada         — 7.1 MB
+    ModeloBR.mdl      Vensim model (editable text)       — 743 KB
+    ModeloBR.vpmx     Published model (packaged)         — 41 MB
+    BRASIL.xlsx       Input data workbook                — 7.1 MB
   chile/
-    ModeloCL.mdl      Modelo Vensim (texto, editable)
-    ModeloCL.vpmx     Modelo publicado (empaquetado)
-    CHILE.xlsx        Libro de datos de entrada
+    ModeloCL.mdl      Vensim model (editable text)
+    ModeloCL.vpmx     Published model (packaged)
+    CHILE.xlsx        Input data workbook
 results/
-  BRASIL.xlsx         Copia congelada del libro de datos de la corrida reportada
-  CHILE.xlsx          Copia congelada del libro de datos de la corrida reportada
+  BRASIL.xlsx         Frozen copy of the workbook used for the reported run
+  CHILE.xlsx          Frozen copy of the workbook used for the reported run
 ```
 
-> **Nota sobre `results/`:** hoy contiene una **copia de los libros de datos** con los
-> que se produjeron los resultados reportados (mismas hojas y mismos valores que
-> `modelo/*/`, salvo redondeo de la última cifra al re-guardar). No contiene todavía los
-> archivos de salida de Vensim (`.vdfx`) ni las series exportadas. Sirve como
-> referencia de *qué datos* generaron los resultados presentados.
+> **Note on `results/`:** this directory currently contains **copies of the data workbooks** used to produce the reported results. They have the same sheets and values as those under `modelo/*/`, except for possible rounding in the last digit after re-saving. It does not yet contain Vensim output files (`.vdfx`) or exported time series. Its purpose is to document *which data* generated the presented results.
 
-### Ficha rápida del modelo
+### Model at a glance
 
-| Elemento | Valor |
+| Item | Value |
 |---|---|
-| Horizonte | `INITIAL TIME = 0` a `FINAL TIME = 300` **meses** |
-| Eje de fechas | Configurado como `YYYY-MM` a partir de **enero 2025** → 2025-01 a 2050-01 |
-| Paso de integración | `TIME STEP = 0.25` mes; `SAVEPER = TIME STEP` (1 201 puntos guardados) |
-| Zonas | `Z1`–`Z6` (6 zonas por país) |
-| Tecnologías | 14: Biomass, WindOnS, WindOffS, PV, HydroDam, HRoR, Thermo1, Thermo2, Geothermal, PVBESSOp1, PVBESSOp2, Other1-3 |
-| Zona × tecnología | `ZTech` = 84 elementos |
-| Interconexiones | `Int1`–`Int15` (pares de zonas) |
-| Resolución horaria | `Hour` = `H0`–`H23` (día típico) |
-| Años de pronóstico | `ForecastYear` = `f0, f1, f3, f5, f7, f9` |
-| Llamadas a Excel | 289 (`GET XLS CONSTANTS` / `GET XLS DATA` / `GET XLS SUBSCRIPT`) |
-| Vistas del diagrama | Graphs, Parameters, Analysis Variables, Generation Expansion, Transmission Expansion, Availability Need, Dispatch, DER Investment, Hydro, Tariff, BESS |
+| Time horizon | `INITIAL TIME = 0` to `FINAL TIME = 300` **months** |
+| Date axis | Configured as `YYYY-MM`, starting in **January 2025** → 2025-01 to 2050-01 |
+| Integration step | `TIME STEP = 0.25` month; `SAVEPER = TIME STEP` (1,201 saved points) |
+| Zones | `Z1`–`Z6` (6 zones per country) |
+| Technologies | 14: Biomass, WindOnS, WindOffS, PV, HydroDam, HRoR, Thermo1, Thermo2, Geothermal, PVBESSOp1, PVBESSOp2, Other1-3 |
+| Zone × technology | `ZTech` = 84 elements |
+| Interconnections | `Int1`–`Int15` (zone pairs) |
+| Hourly resolution | `Hour` = `H0`–`H23` (representative day) |
+| Forecast years | `ForecastYear` = `f0, f1, f3, f5, f7, f9` |
+| Excel calls | 289 (`GET XLS CONSTANTS` / `GET XLS DATA` / `GET XLS SUBSCRIPT`) |
+| Diagram views | Graphs, Parameters, Analysis Variables, Generation Expansion, Transmission Expansion, Availability Need, Dispatch, DER Investment, Hydro, Tariff, BESS |
 
 ---
 
-## 2. Requisitos — qué debe tener la instalación de Vensim DSS
+## 2. Requirements — what the Vensim DSS installation must include
 
-El modelo **no corre en Vensim PLE ni PLE Plus**. Requiere **Vensim DSS** (se recomienda
-la versión de **64 bits**, Vensim 8 o superior, que es la que produce el formato `.vpmx`).
-Estas son las razones concretas, todas verificables abriendo el `.mdl`:
+The model **does not run in Vensim PLE or PLE Plus**. It requires **Vensim DSS**. The **64-bit version**, Vensim 8 or later, is recommended and is the version that produces the `.vpmx` format. The specific reasons, all verifiable by opening the `.mdl` file, are listed below.
 
-| Requisito | Por qué | Dónde se ve |
+| Requirement | Why it is needed | Where to find it |
 |---|---|---|
-| **Subíndices / arreglos** | Todo el modelo está dimensionado por zona, tecnología, hora, interconexión y año de pronóstico. PLE no soporta subíndices. | Familias `Zone`, `Tech`, `ZTech`, `Int`, `Hour`, `ForecastYear` |
-| **Funciones de lectura de Excel** | 289 llamadas `GET XLS ...`. Vensim lee el `.xlsx` a través de Excel, de modo que **Microsoft Excel debe estar instalado**, en la misma arquitectura que Vensim (64 bits con 64 bits). | `GET XLS CONSTANTS`, `GET XLS DATA` |
-| **`GET XLS SUBSCRIPT`** | Los rangos de subíndices (`Z1Tech`…`Z6Tech`, `EnergyUsers`) se **leen desde el libro**. Sin el Excel accesible el modelo **ni siquiera carga**: falla la definición de subíndices, no solo los datos. | Hojas `Base` (C1:P1, Q1:AD1, …) y `Energy Users` |
-| **Funciones avanzadas** | `ALLOCATE BY PRIORITY` (21 usos, asignación de despacho y de capacidad), `VECTOR RANK` (8), `DELAY MATERIAL` (19), `ELMCOUNT`, `VMAX` — no disponibles en las ediciones básicas. | Módulos de despacho e inversión |
-| **Variables `GAME`** | 4 variables (`Congested Dispatch`, `Congested Dispatch Price`, `Max Interconnection Dispatch`, `Max Interconnection Capacity`) están definidas como `GAME(0)`: se alimentan **desde fuera** durante la corrida. Es el punto de acople con **PyPSA**, y el control externo de Vensim (DLL / scripts de comando) es funcionalidad de **DSS**. | Líneas 8499–8533 de `ModeloBR.mdl` |
-| **64 bits y memoria** | Arreglos como `Congested Dispatch[ForecastYear, ZTech, Hour]` = 6 × 84 × 24 valores, guardados en 1 201 pasos. El `.vdfx` resultante pesa cientos de MB. Reserve ≥ 8 GB de RAM libres y espacio en disco. | Sección `.Control` |
+| **Subscripts / arrays** | The entire model is dimensioned by zone, technology, hour, interconnection, and forecast year. PLE does not support subscripts. | Families `Zone`, `Tech`, `ZTech`, `Int`, `Hour`, `ForecastYear` |
+| **Excel data functions** | There are 289 `GET XLS ...` calls. Vensim reads the `.xlsx` file through Excel, so **Microsoft Excel must be installed** and must use the same architecture as Vensim (64-bit with 64-bit). | `GET XLS CONSTANTS`, `GET XLS DATA` |
+| **`GET XLS SUBSCRIPT`** | Subscript ranges (`Z1Tech`…`Z6Tech`, `EnergyUsers`) are **read from the workbook**. If Excel is unavailable, the model **cannot even load**: subscript definitions fail, not just the data import. | `Base` sheet (C1:P1, Q1:AD1, …) and `Energy Users` sheet |
+| **Advanced functions** | `ALLOCATE BY PRIORITY` (21 uses, for dispatch and capacity allocation), `VECTOR RANK` (8), `DELAY MATERIAL` (19), `ELMCOUNT`, and `VMAX` are unavailable in the basic editions. | Dispatch and investment modules |
+| **`GAME` variables** | Four variables (`Congested Dispatch`, `Congested Dispatch Price`, `Max Interconnection Dispatch`, and `Max Interconnection Capacity`) are defined as `GAME(0)` and receive values **from an external process** during a run. This is the integration point with **PyPSA**; external control through the Vensim DLL or command scripts is a **DSS** feature. | Lines 8499–8533 of `ModeloBR.mdl` |
+| **64-bit architecture and memory** | Arrays such as `Congested Dispatch[ForecastYear, ZTech, Hour]` contain 6 × 84 × 24 values, saved over 1,201 time steps. The resulting `.vdfx` file can be hundreds of megabytes. Keep at least 8 GB of RAM available and sufficient disk space. | `.Control` section |
 
-**Resumen para el jurado:** Vensim DSS (64 bits) + Microsoft Excel instalado + Windows.
-Quien solo quiera *ver* el modelo sin licencia puede usar el **Vensim Model Reader**
-(gratuito) con los archivos `.vpmx`: permite abrir y navegar el modelo publicado, pero no
-editar ecuaciones. Para reproducir corridas y para el acople con PyPSA se necesita DSS.
+**In summary:** use Vensim DSS (64-bit) with Microsoft Excel installed on Windows. Anyone who only needs to *view* the model without a license can use the free **Vensim Model Reader** with the `.vpmx` files. It can open and navigate the published model but cannot edit equations. Reproducing runs and integrating with PyPSA require DSS.
 
 ---
 
-## 3. Cómo correr el modelo
+## 3. Running the model
 
-### 3.1 Preparación (importante)
+### 3.1 Preparation (important)
 
-1. **Descargue el repositorio a una carpeta local del disco.** No lo ejecute desde una
-   carpeta sincronizada en la nube con archivos "solo en línea": Vensim necesita el
-   `.xlsx` físicamente presente. En OneDrive, marque la carpeta como
-   *Conservar siempre en este dispositivo*.
-2. **No mueva ni renombre los `.xlsx`.** Cada modelo tiene grabado un alias de archivo:
+1. **Download the repository to a local folder.** Do not run it from a cloud-synced folder containing online-only files: Vensim needs the `.xlsx` file to be physically available. In OneDrive, select *Always keep on this device* for the folder.
+2. **Do not move or rename the `.xlsx` files.** Each model stores a file alias:
 
-   | Modelo | Alias | Archivo esperado |
+   | Model | Alias | Expected file |
    |---|---|---|
-   | `ModeloBR.mdl` | `?Datos` | `BRASIL.xlsx` (misma carpeta) |
-   | `ModeloCL.mdl` | `?Datos` | `CHILE.xlsx` (misma carpeta) |
+   | `ModeloBR.mdl` | `?Datos` | `BRASIL.xlsx` (in the same folder) |
+   | `ModeloCL.mdl` | `?Datos` | `CHILE.xlsx` (in the same folder) |
 
-   Todas las ecuaciones referencian `'?Datos'`. Si el nombre o la ubicación cambian,
-   Vensim pedirá el archivo al cargar.
-3. **Cierre el libro en Excel** antes de simular (o ábralo en solo lectura), para evitar
-   bloqueos de archivo.
+   Every relevant equation refers to `'?Datos'`. If the file name or location changes, Vensim will prompt for the file when loading the model.
+3. **Close the workbook in Excel** before running the simulation, or open it as read-only, to avoid file-locking issues.
 
-### 3.2 Corrida estándar (Vensim DSS)
+### 3.2 Standard run (Vensim DSS)
 
-1. Abra **Vensim DSS** → `File > Open Model…` → `modelo/brasil/ModeloBR.mdl`
-   (o `modelo/chile/ModeloCL.mdl`).
-2. Espere a que termine de leer el Excel: durante la carga se resuelven los subíndices y
-   las ~289 constantes y series. Si aparece un cuadro pidiendo un archivo, es el alias
-   `?Datos` (ver 3.1, punto 2).
-3. Escriba un nombre de corrida en la caja **Run name** de la barra superior
-   (por ejemplo `BR_base`), para no sobrescribir corridas previas.
-4. Presione **Run**. El modelo simula 300 meses con paso de 0.25 mes.
-5. Revise resultados con las vistas y los gráficos predefinidos (sección 5).
+1. Open **Vensim DSS** → `File > Open Model…` → `modelo/brasil/ModeloBR.mdl` (or `modelo/chile/ModeloCL.mdl`).
+2. Wait for the Excel import to finish. Vensim resolves the subscripts and approximately 289 constants and time series while loading. If a dialog prompts for a file, it refers to the `?Datos` alias (see Section 3.1, step 2).
+3. Enter a run name in the **Run name** box on the top toolbar, such as `BR_base`, to avoid overwriting previous runs.
+4. Select **Run**. The model simulates 300 months with a 0.25-month time step.
+5. Review the results using the predefined views and graphs described in Section 5.
 
-> **SyntheSim** (el botón de la varita) permite mover parámetros con deslizadores y ver el
-> efecto en tiempo real; es la forma más rápida de explorar sensibilidad sin editar Excel.
+> **SyntheSim** (the magic-wand button) lets you adjust parameters with sliders and see the effect in real time. It is the quickest way to explore sensitivity without editing the Excel workbook.
 
-### 3.3 Modo publicado (`.vpmx`)
+### 3.3 Published mode (`.vpmx`)
 
-`ModeloBR.vpmx` y `ModeloCL.vpmx` son el modelo **publicado**. Se abren con Vensim DSS o
-con el Vensim Model Reader (`File > Open Model`) y sirven para revisar y simular sin tocar
-el `.mdl`. Si al abrirlo pidiera el libro de datos, indique la copia de `modelo/<país>/`.
+`ModeloBR.vpmx` and `ModeloCL.vpmx` are the **published** versions of the models. Open them with Vensim DSS or Vensim Model Reader (`File > Open Model`) to review and simulate the model without modifying the `.mdl` file. If prompted for the data workbook, select the copy under `modelo/<country>/`.
 
-### 3.4 Corrida acoplada con PyPSA (opcional)
+### 3.4 Coupled run with PyPSA (optional)
 
-El interruptor `Congested Dispatch` (hoja `General Parameters`, celda **B24**) define de
-dónde viene el despacho:
+The `Congested Dispatch` switch on the `General Parameters` sheet, cell **B24**, defines the source of dispatch values:
 
-| Valor | Significado |
+| Value | Meaning |
 |---|---|
-| `0` | Despacho calculado **dentro de Vensim** (formulación nueva) — **es el valor configurado hoy en ambos países** |
-| `1` | Despacho **externo, calculado por PyPSA**, entregado a Vensim por las variables `GAME` |
-| `-1` | Despacho Vensim, formulación antigua (comparación) |
+| `0` | Dispatch calculated **within Vensim** using the new formulation — **the current setting for both countries** |
+| `1` | **External dispatch calculated by PyPSA** and passed to Vensim through the `GAME` variables |
+| `-1` | Dispatch calculated in Vensim using the previous formulation, for comparison |
 
-> ⚠️ **No cambie B24 a `1` en una corrida normal.** Con el valor `1` el modelo espera que
-> un proceso externo escriba las variables `GAME` en cada paso; si nadie las alimenta, el
-> despacho congestionado queda en cero y los resultados pierden sentido. La corrida
-> reproducible para el jurado es con **B24 = 0**.
+> ⚠️ **Do not change B24 to `1` for a standard run.** With a value of `1`, the model expects an external process to write the `GAME` variables at every time step. If no process supplies them, congested dispatch remains zero and the results are not meaningful. Use **B24 = 0** for the reproducible baseline run.
 
 ---
 
-## 4. Escenarios: los interruptores del modelo
+## 4. Scenarios: model switches
 
-Todos viven en la hoja **`General Parameters`** del libro de cada país. Se cambian en
-Excel, se guarda el libro y se vuelve a correr el modelo; no hay que editar ecuaciones.
+All switches are on the **`General Parameters`** sheet of each country's workbook. Change them in Excel, save the workbook, and run the model again; the equations do not need to be edited.
 
-| Celda | Parámetro | Valor actual BR / CL | Significado |
+| Cell | Parameter | Current BR / CL value | Meaning |
 |---|---|---|---|
-| `B1` | Zonal Prices? | 1 / 1 | 0 = precio único, 1 = precios zonales |
-| `B11` | Desired Availability Margin | 0.35 / 0.70 | Margen de disponibilidad deseado |
-| `B12` | Planned Generation Switch | 1 / 1 | 1 = expansión planificada exógena, 0 = endógena |
-| `B13` | Endogenous Margin Generation Switch | 0 / 0 | 0 = margen endógeno |
-| `B14` | DER Expansion Switch | 1 / 1 | 1 = con DER endógeno |
-| `B15` | Planned DER Expansion Switch | 0 / 0 | 1 = DER planificado exógeno |
-| `B16` | Only Margin Investments | 0 / 0 | 0 = inversión por rentabilidad, 1 = por margen |
-| `B17` | Only RES Investment Margin | 0 / 0 | 1 = margen solo con renovables |
-| `B18` | Only RES New Investments | 1 / 1 | 1 = nuevas inversiones solo renovables |
-| `B19` | Only Power Allocation | 0 / 0 | 0 = energía y potencia |
-| `B20` | MWh → GWh | 1000 / 1000 | Factor de conversión |
-| `B21` | Other Generation and Demand | 0 / 0 | Activa tecnologías y demanda "Other" |
-| `B22` | GETs | 1 / 1 | 1 = tecnologías de mejora de red activas |
-| `B23` | BESS | 1 / 1 | 1 = almacenamiento activo |
-| `B24` | Congested Dispatch | 0 / 0 | Ver 3.4 |
-| `B27`, `C27` | Curva DER por rentabilidad | 0.01 / 300 (BR); 0.01 / 400 (CL) | Parámetros `c1`, `c2` de la sigmoide |
-| `B28`, `C28` | Curva DER por influencia social | −10 / 0.6 | Parámetros `c1`, `c2` |
+| `B1` | Zonal Prices? | 1 / 1 | 0 = single price; 1 = zonal prices |
+| `B11` | Desired Availability Margin | 0.35 / 0.70 | Target availability margin |
+| `B12` | Planned Generation Switch | 1 / 1 | 1 = exogenous planned expansion; 0 = endogenous expansion |
+| `B13` | Endogenous Margin Generation Switch | 0 / 0 | 0 = endogenous margin |
+| `B14` | DER Expansion Switch | 1 / 1 | 1 = endogenous DER enabled |
+| `B15` | Planned DER Expansion Switch | 0 / 0 | 1 = exogenous planned DER |
+| `B16` | Only Margin Investments | 0 / 0 | 0 = profitability-based investment; 1 = margin-based investment |
+| `B17` | Only RES Investment Margin | 0 / 0 | 1 = margin met only with renewable energy sources |
+| `B18` | Only RES New Investments | 1 / 1 | 1 = new investment limited to renewable energy sources |
+| `B19` | Only Power Allocation | 0 / 0 | 0 = energy and power |
+| `B20` | MWh → GWh | 1000 / 1000 | Conversion factor |
+| `B21` | Other Generation and Demand | 0 / 0 | Enables `Other` technologies and demand |
+| `B22` | GETs | 1 / 1 | 1 = grid-enhancing technologies enabled |
+| `B23` | BESS | 1 / 1 | 1 = storage enabled |
+| `B24` | Congested Dispatch | 0 / 0 | See Section 3.4 |
+| `B27`, `C27` | Profitability-driven DER curve | 0.01 / 300 (BR); 0.01 / 400 (CL) | Sigmoid parameters `c1`, `c2` |
+| `B28`, `C28` | Social-influence DER curve | −10 / 0.6 | Parameters `c1`, `c2` |
 
-**Escenario de demanda:** en la hoja `Peak Demand`, la celda **L1** selecciona la
-trayectoria: `1` = alta, `0` = media, `-1` = baja. La fórmula de la columna `TOTAL` (G)
-elige la columna correspondiente, y esa columna es la que alimenta al modelo.
+**Demand scenario:** cell **L1** on the `Peak Demand` sheet selects the trajectory: `1` = high, `0` = medium, and `-1` = low. The formula in the `TOTAL` column (G) selects the corresponding column, which then supplies the model.
 
 ---
 
-## 5. Cómo revisar el modelo
+## 5. Reviewing the model
 
-### 5.1 Recorrido sugerido del diagrama (11 vistas)
+### 5.1 Suggested tour of the diagram (11 views)
 
-| Vista | Qué revisar |
+| View | What to review |
 |---|---|
-| **Parameters** | Todas las constantes de entrada, con su origen en Excel |
-| **Analysis Variables** | Las ~48 variables de salida agregadas: capacidad, despacho, márgenes, tarifa, DER, reservorios |
-| **Generation Expansion** | Cadena de inversión: potencial → decisión → licencia → construcción → capacidad operativa |
-| **Transmission Expansion** | Necesidad de red por demanda y por generación, km y costo |
-| **Availability Need** | Margen de disponibilidad frente al deseado (motor de la inversión por margen) |
-| **Dispatch** | Despacho horario, precio zonal, congestión, interconexiones |
-| **DER Investment** | Adopción distribuida (curvas de rentabilidad e influencia social) |
-| **Hydro** | Reservorios, aportes, precio de oferta hidráulica |
-| **Tariff** | Formación de la tarifa al usuario |
-| **BESS** | Capacidad y duración del almacenamiento |
-| **Graphs** | 23 gráficos predefinidos, listos para leer |
+| **Parameters** | All input constants and their Excel sources |
+| **Analysis Variables** | Approximately 48 aggregated output variables: capacity, dispatch, margins, tariff, DER, and reservoirs |
+| **Generation Expansion** | Investment chain: potential → decision → licensing → construction → operating capacity |
+| **Transmission Expansion** | Grid requirements driven by demand and generation, including distance and cost |
+| **Availability Need** | Availability margin relative to its target, which drives margin-based investment |
+| **Dispatch** | Hourly dispatch, zonal prices, congestion, and interconnections |
+| **DER Investment** | Distributed adoption through profitability and social-influence curves |
+| **Hydro** | Reservoirs, inflows, and hydropower offer price |
+| **Tariff** | End-user tariff formation |
+| **BESS** | Storage capacity and duration |
+| **Graphs** | 23 predefined, ready-to-use graphs |
 
-Gráficos ya construidos en el modelo, entre otros: `Generation_Capacity_by_Tech`,
-`Generation_Capacity_Availability_&_Residual_Demand`, `Availability_Margin`,
-`Transmission_km`, `Reservoir_level`, `DER_Capacity_vs_Generation_&_Tariff`,
-`Imbalances_and_Interconnection_Z1`…`Z5`, `Generation_Capacity_Z1`…`Z6`, `Demand_Z1`…`Z6`.
+Predefined graphs include `Generation_Capacity_by_Tech`, `Generation_Capacity_Availability_&_Residual_Demand`, `Availability_Margin`, `Transmission_km`, `Reservoir_level`, `DER_Capacity_vs_Generation_&_Tariff`, `Imbalances_and_Interconnection_Z1`…`Z5`, `Generation_Capacity_Z1`…`Z6`, and `Demand_Z1`…`Z6`.
 
-### 5.2 Verificaciones de estructura (dentro de Vensim)
+### 5.2 Structural checks in Vensim
 
-- `Model > Check Model` — consistencia de ecuaciones y subíndices.
-- `Model > Units Check` — las variables principales de stock y flujo están documentadas
-  (MW, MWh, Months, km, USD); varias auxiliares no tienen unidad declarada.
-- Herramientas del panel lateral sobre cualquier variable: **Causes Tree** (de qué
-  depende), **Uses Tree** (a qué alimenta), **Document** (ecuación, unidad y comentario) y
-  **Causal Tracing** para seguir un comportamiento hasta su origen.
-- `Model > Document…` exporta el listado completo de ecuaciones a texto, para revisión
-  fuera de Vensim.
+- `Model > Check Model` — checks equation and subscript consistency.
+- `Model > Units Check` — the main stock and flow variables document their units (MW, MWh, Months, km, and USD); several auxiliary variables have no declared unit.
+- Use the side-panel tools on any variable: **Causes Tree** shows its dependencies, **Uses Tree** shows what it supplies, **Document** displays its equation, unit, and comment, and **Causal Tracing** helps trace behavior back to its origin.
+- `Model > Document…` exports the complete equation listing as text for review outside Vensim.
 
-### 5.3 Verificaciones de comportamiento sugeridas
+### 5.3 Suggested behavioral checks
 
-1. **Balance oferta–demanda:** `Total Generation Capacity` frente a `National Peak Demand`;
-   `Availability Margin` debe oscilar alrededor de `Desired Availability Margin`.
-2. **Consistencia de la cadena de inversión:** la capacidad que entra en operación
-   corresponde a `Decided Generation Investment by Tech` desplazada por los rezagos.
-3. **Rezagos:** `Accumulated Generation Delays` = tiempo de construcción + licencia +
-   otros retrasos; verificar el desfase con que aparece la capacidad.
-4. **Interconexión:** `Total GET Capacity Used` ≤ `Interconnection Capacity` ×
-   `Allowed GET Percentage`.
-5. **Sensibilidad rápida:** con SyntheSim mover `Desired Availability Margin` y observar la
-   respuesta de la inversión; apagar `GETs` (B22 = 0) o `BESS` (B23 = 0) y comparar corridas.
-6. **Comparación de corridas:** cargue dos `.vdfx` en el panel de control de Vensim
-   (pestaña de *datasets*) y grafique las series superpuestas.
+1. **Supply-demand balance:** compare `Total Generation Capacity` with `National Peak Demand`; `Availability Margin` should fluctuate around `Desired Availability Margin`.
+2. **Investment-chain consistency:** capacity entering operation should correspond to `Decided Generation Investment by Tech`, shifted by the relevant delays.
+3. **Delays:** `Accumulated Generation Delays` equals construction time plus licensing and other delays; verify the lag before capacity becomes available.
+4. **Interconnections:** `Total GET Capacity Used` ≤ `Interconnection Capacity` × `Allowed GET Percentage`.
+5. **Quick sensitivity test:** use SyntheSim to adjust `Desired Availability Margin` and observe the investment response. Disable `GETs` (B22 = 0) or `BESS` (B23 = 0) and compare the runs.
+6. **Run comparison:** load two `.vdfx` files in the Vensim control panel under the *datasets* tab and plot the time series together.
 
-### 5.4 Trazabilidad de los datos
+### 5.4 Data traceability
 
-La primera hoja de cada libro (`Brasil` / `Chile`) es una **tabla de fuentes**: para cada
-dato indica la metodología, en qué pestaña del libro se ubica y el enlace público de
-origen (ONS y EPE en el caso de Brasil). Es el punto de partida para auditar cualquier
-valor de entrada.
+The first sheet in each workbook (`Brasil` / `Chile`) is a **source table**. For every input, it identifies the methodology, the workbook sheet where the value is located, and a public source link (including ONS and EPE for Brazil). Use it as the starting point for auditing any input value.
 
-Hojas de entrada y su rol principal:
+Input sheets and their primary roles:
 
-| Hoja | Contenido |
+| Sheet | Contents |
 |---|---|
-| `General Parameters` | Interruptores de escenario y parámetros globales |
-| `Base` | Capacidad inicial por zona y tecnología, precios de oferta, nombres de subíndices |
-| `Generation Project Size`, `Potential Expansion`, `Generation Expansion` | Tamaño de proyecto y potencial de expansión |
-| `Availability Factor` | Factores de disponibilidad horarios por tecnología |
-| `Gen Investment parameters`, `Trans Investment parameters` | Rezagos y costos de inversión |
-| `Peak Demand`, `National demand`, `Demand by Zone`, `Demand Curve`, `Alternative demand` | Demanda de potencia y energía, perfil horario y reparto zonal |
-| `Interconnections` | Pares de zonas, longitudes y capacidad inicial de interconexión |
-| `Hydro` | Aportes, capacidad de reservorio, precios |
-| `BESS`, `Zone`, `Energy Users`, `LCOE`, `Planned DER Expansion` | Almacenamiento, DER, tipos de usuario, costos nivelados |
-| `Cumulative capacity in 3/5/7/9 years`, `Cumulative trans in 7 years`, `Transmission Expansion` | Planes de expansión anunciados que alimentan `ForecastYear` |
+| `General Parameters` | Scenario switches and global parameters |
+| `Base` | Initial capacity by zone and technology, offer prices, and subscript names |
+| `Generation Project Size`, `Potential Expansion`, `Generation Expansion` | Project sizes and expansion potential |
+| `Availability Factor` | Hourly availability factors by technology |
+| `Gen Investment parameters`, `Trans Investment parameters` | Investment delays and costs |
+| `Peak Demand`, `National demand`, `Demand by Zone`, `Demand Curve`, `Alternative demand` | Peak and energy demand, hourly profiles, and zonal distribution |
+| `Interconnections` | Zone pairs, line lengths, and initial interconnection capacity |
+| `Hydro` | Inflows, reservoir capacity, and prices |
+| `BESS`, `Zone`, `Energy Users`, `LCOE`, `Planned DER Expansion` | Storage, DER, user types, and levelized costs |
+| `Cumulative capacity in 3/5/7/9 years`, `Cumulative trans in 7 years`, `Transmission Expansion` | Announced expansion plans that supply `ForecastYear` |
 
 ---
 
-## 6. Problemas frecuentes
+## 6. Troubleshooting
 
-| Síntoma | Causa y solución |
+| Symptom | Cause and solution |
 |---|---|
-| Vensim pide un archivo al abrir el modelo | El alias `?Datos` no encuentra `BRASIL.xlsx` / `CHILE.xlsx`. Deje el `.xlsx` en la misma carpeta que el `.mdl`, con ese nombre exacto |
-| Error de subíndices al cargar | El libro no es legible: archivo "solo en línea", ruta inaccesible o Excel no instalado. Los subíndices se leen con `GET XLS SUBSCRIPT` |
-| Constantes en cero o valores extraños | El libro estaba abierto y bloqueado, o se renombró una hoja. Los nombres de hoja deben conservarse exactamente |
-| El despacho congestionado sale en cero | `Congested Dispatch` (B24) quedó en `1` sin el acople externo activo. Vuelva a `0` |
-| La corrida es lenta o el `.vdfx` es enorme | Es esperable: 1 201 pasos guardados sobre arreglos de hasta 6 × 84 × 24. Use disco local y Vensim de 64 bits |
-| Números mal interpretados desde Excel | Configuración regional con coma decimal frente a un libro con punto decimal. Alinee la configuración regional de Windows con el formato del libro |
+| Vensim prompts for a file when opening the model | The `?Datos` alias cannot find `BRASIL.xlsx` / `CHILE.xlsx`. Keep the `.xlsx` file in the same folder as its `.mdl` file and preserve the exact file name. |
+| Subscript error while loading | The workbook cannot be read because it is online-only, its path is inaccessible, or Excel is not installed. Subscripts are read with `GET XLS SUBSCRIPT`. |
+| Constants are zero or values look incorrect | The workbook was open and locked, or a sheet was renamed. Sheet names must be preserved exactly. |
+| Congested dispatch is zero | `Congested Dispatch` (B24) is set to `1` without an active external integration. Change it back to `0`. |
+| The run is slow or the `.vdfx` file is very large | This is expected: 1,201 time steps are saved for arrays containing up to 6 × 84 × 24 elements. Use local storage and 64-bit Vensim. |
+| Excel numbers are interpreted incorrectly | The operating system's regional settings use a decimal comma while the workbook uses a decimal point, or vice versa. Align the Windows regional settings with the workbook's number format. |
 
 ---
 
-## 7. Reproducir los resultados reportados
+## 7. Reproducing the reported results
 
-1. Use los libros de `modelo/brasil/` y `modelo/chile/` **sin modificar** (la copia de
-   `results/` es equivalente: solo difiere en el redondeo de la última cifra al re-guardar).
-2. Verifique que `General Parameters!B24 = 0` y que los demás interruptores coinciden con
-   la tabla de la sección 4.
-3. Corra `ModeloBR.mdl` con nombre de corrida `BR_base` y `ModeloCL.mdl` con `CL_base`.
-4. Exporte las series de la vista **Analysis Variables** (`Model > Export Dataset…` a
-   `.tab` o `.xlsx`) para comparar y documentar.
+1. Use the workbooks under `modelo/brasil/` and `modelo/chile/` **without modifying them**. The copies under `results/` are equivalent except for possible rounding in the last digit after re-saving.
+2. Confirm that `General Parameters!B24 = 0` and that the other switches match the table in Section 4.
+3. Run `ModeloBR.mdl` with the run name `BR_base` and `ModeloCL.mdl` with `CL_base`.
+4. Export the time series from the **Analysis Variables** view using `Model > Export Dataset…` to `.tab` or `.xlsx` for comparison and documentation.
