@@ -1,0 +1,142 @@
+{
+  "country": "Chile",
+  "samples": 100,
+  "factors": [
+    "m_bar",
+    "sigma",
+    "f_min",
+    "alpha_get",
+    "pi_star",
+    "theta",
+    "lifetime",
+    "discount",
+    "trans_cost",
+    "capex_res",
+    "demand_growth",
+    "hydro_inflow"
+  ],
+  "outputs": [
+    "Total Generation Capacity",
+    "Total Transmission",
+    "Total Interconnection Capacity",
+    "Capacity Margin[f0]",
+    "Aggregated Generation Tariff[f0]",
+    "Congestion Tariff[f0]",
+    "Total New Investment",
+    "Total System Cost"
+  ],
+  "min_r2": 0.7,
+  "rankings": [
+    {
+      "output": "Total Generation Capacity",
+      "r2": 0.9559686496473264,
+      "ranked_by": "src",
+      "top": [
+        "demand_growth",
+        "m_bar",
+        "theta",
+        "discount",
+        "pi_star"
+      ]
+    },
+    {
+      "output": "Total Transmission",
+      "r2": 0.9767284894170796,
+      "ranked_by": "src",
+      "top": [
+        "demand_growth",
+        "m_bar",
+        "theta",
+        "sigma",
+        "alpha_get"
+      ]
+    },
+    {
+      "output": "Total Interconnection Capacity",
+      "r2": 0.384686156403128,
+      "ranked_by": "spearman",
+      "top": [
+        "theta",
+        "demand_growth",
+        "capex_res",
+        "alpha_get",
+        "pi_star"
+      ]
+    },
+    {
+      "output": "Capacity Margin[f0]",
+      "r2": 0.8737885101530023,
+      "ranked_by": "src",
+      "top": [
+        "m_bar",
+        "theta",
+        "discount",
+        "pi_star",
+        "lifetime"
+      ]
+    },
+    {
+      "output": "Aggregated Generation Tariff[f0]",
+      "r2": 0.6567826705156776,
+      "ranked_by": "spearman",
+      "top": [
+        "m_bar",
+        "theta",
+        "hydro_inflow",
+        "sigma",
+        "capex_res"
+      ]
+    },
+    {
+      "output": "Congestion Tariff[f0]",
+      "r2": 0.16909500088594043,
+      "ranked_by": "spearman",
+      "top": [
+        "m_bar",
+        "sigma",
+        "capex_res",
+        "discount",
+        "theta"
+      ]
+    },
+    {
+      "output": "Total New Investment",
+      "r2": 0.7578481206445212,
+      "ranked_by": "src",
+      "top": [
+        "theta",
+        "demand_growth",
+        "sigma",
+        "discount",
+        "lifetime"
+      ]
+    },
+    {
+      "output": "Total System Cost",
+      "r2": 0.9480055222837261,
+      "ranked_by": "src",
+      "top": [
+        "demand_growth",
+        "capex_res",
+        "theta",
+        "m_bar",
+        "sigma"
+      ]
+    }
+  ],
+  "bands": {
+    "low_percentile": 5.0,
+    "high_percentile": 95.0,
+    "variables": [
+      "Aggregated Generation Tariff[f0]",
+      "Capacity Margin[f0]",
+      "Congestion Tariff[f0]",
+      "Total Generation Capacity",
+      "Total Interconnection Capacity",
+      "Total New Investment",
+      "Total System Cost",
+      "Total Transmission"
+    ],
+    "runs_per_point": 100
+  }
+}

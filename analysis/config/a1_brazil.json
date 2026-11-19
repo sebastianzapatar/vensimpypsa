@@ -1,0 +1,208 @@
+{
+  "country": "Brazil",
+  "experiment": "B5 - Latin hypercube sensitivity (Table B.3)",
+  "model": "../../modelo/brasil/ModeloBR_exposed.vpmx",
+  "workbook": "../../modelo/brasil/BRASIL.flat.xlsx",
+  "factors": [
+    {
+      "id": "m_bar",
+      "symbol": "\\bar m",
+      "label": "Desired availability margin",
+      "mode": "relative",
+      "lower": -0.3,
+      "upper": 0.3,
+      "targets": [
+        {
+          "sheet": "General Parameters",
+          "ref": "B11"
+        }
+      ],
+      "note": "Table B.3 range +/-30% around the country reference value."
+    },
+    {
+      "id": "sigma",
+      "symbol": "\\sigma",
+      "label": "Grid security margin",
+      "mode": "absolute",
+      "lower": 0.1,
+      "upper": 0.5,
+      "targets": [
+        {
+          "sheet": "General Parameters",
+          "ref": "B7"
+        }
+      ],
+      "note": "Reference 0.30 in both countries."
+    },
+    {
+      "id": "f_min",
+      "symbol": "F_{\\min}",
+      "label": "Minimum grid increment (MW)",
+      "mode": "absolute",
+      "lower": 100.0,
+      "upper": 400.0,
+      "targets": [
+        {
+          "sheet": "General Parameters",
+          "ref": "B8"
+        }
+      ],
+      "note": "Reference 200 MW. The maximum increment (B9) is held at 500 MW."
+    },
+    {
+      "id": "alpha_get",
+      "symbol": "\\alpha_i",
+      "label": "Allowed GET share",
+      "mode": "absolute",
+      "lower": 0.15,
+      "upper": 0.45,
+      "targets": [
+        {
+          "sheet": "Interconnections",
+          "ref": "S3:S17",
+          "skip_zero": true
+        }
+      ],
+      "note": "One value per interconnection corridor; the model reads S3 downwards."
+    },
+    {
+      "id": "pi_star",
+      "symbol": "\\Pi^{*}",
+      "label": "Profitability threshold",
+      "mode": "absolute",
+      "lower": 1.0,
+      "upper": 1.5,
+      "constant": "Profitability Threshold",
+      "requires_patch": false,
+      "note": "Hardcoded as the literal 1.2 inside 'Profitable Technologies'. Run analysis/expose_constants.py before this factor can be varied."
+    },
+    {
+      "id": "theta",
+      "symbol": "\\theta",
+      "label": "Logit scale (USD)",
+      "mode": "absolute",
+      "lower": 10000000.0,
+      "upper": 1000000000.0,
+      "log": true,
+      "constant": "Logit Scale",
+      "requires_patch": false,
+      "note": "Hardcoded as the literal 1e+08 in the technology-allocation logit. Sampled log-uniformly because it spans two orders of magnitude."
+    },
+    {
+      "id": "lifetime",
+      "symbol": "L_g",
+      "label": "Technical lifetime (months)",
+      "mode": "absolute",
+      "lower": 500.0,
+      "upper": 750.0,
+      "targets": [
+        {
+          "sheet": "Gen Investment parameters",
+          "ref": "C2:CH2",
+          "skip_zero": true
+        }
+      ],
+      "note": "The shipped Brazil workbook holds 625 months in all 84 zone-technology entries. The range is +/-20% around that reference, so the two countries are sampled over the same relative spread of their own reference lifetime."
+    },
+    {
+      "id": "discount",
+      "symbol": "r",
+      "label": "Discount rate",
+      "mode": "absolute",
+      "lower": 0.06,
+      "upper": 0.14,
+      "targets": [
+        {
+          "sheet": "Gen Investment parameters",
+          "ref": "C23:CH23",
+          "skip_zero": true
+        }
+      ],
+      "note": "skip_zero keeps the technologies whose expansion potential is zero inert."
+    },
+    {
+      "id": "trans_cost",
+      "label": "Transmission cost (USD/km-day)",
+      "mode": "relative",
+      "lower": -0.3,
+      "upper": 0.3,
+      "targets": [
+        {
+          "sheet": "General Parameters",
+          "ref": "B6"
+        }
+      ],
+      "note": "Reference 109.08 (Brazil) and 94.92 (Chile) USD/km-day."
+    },
+    {
+      "id": "capex_res",
+      "label": "CAPEX of PV, wind and BESS technologies",
+      "mode": "relative",
+      "lower": -0.3,
+      "upper": 0.3,
+      "targets": [
+        {
+          "sheet": "Gen Investment parameters",
+          "ref": "C62:CH373",
+          "header_row": 1,
+          "columns_matching": [
+            "PV",
+            "Wind",
+            "BESS"
+          ],
+          "skip_zero": true
+        }
+      ],
+      "note": "Scales the whole monthly CAPEX trajectory of the matching technologies, preserving its shape. GET cost is covered by trans_cost."
+    },
+    {
+      "id": "demand_growth",
+      "label": "Demand growth",
+      "mode": "growth",
+      "lower": -0.4,
+      "upper": 0.4,
+      "targets": [
+        {
+          "sheet": "National demand",
+          "ref": "G2:AD421"
+        }
+      ],
+      "note": "Scales the deviation of each hourly series from its first month, so 2025 demand is unchanged and only the growth is varied."
+    },
+    {
+      "id": "hydro_inflow",
+      "label": "Hydrological inflows",
+      "mode": "relative",
+      "lower": -0.25,
+      "upper": 0.25,
+      "targets": [
+        {
+          "sheet": "Hydro",
+          "ref": "C7:H325",
+          "skip_zero": true
+        }
+      ],
+      "note": "Range of admissibility, not an estimated distribution: +/-25% on the monthly inflow profile brackets the wet-dry spread while preserving its shape, consistent with the other ranges of Table B.3. The discrete wet/median/dry conditions are experiment B6."
+    }
+  ],
+  "outputs": [
+    "Total Generation Capacity",
+    "Total Transmission",
+    "Total Interconnection Capacity",
+    "Capacity Margin[f0]",
+    "Aggregated Generation Tariff[f0]",
+    "Congestion Tariff[f0]",
+    "Total New Investment",
+    "Total System Cost"
+  ],
+  "savelist": [
+    "Total Generation Capacity",
+    "Total Transmission",
+    "Total Interconnection Capacity",
+    "Capacity Margin[f0]",
+    "Aggregated Generation Tariff[f0]",
+    "Congestion Tariff[f0]",
+    "Total New Investment",
+    "Total System Cost"
+  ]
+}

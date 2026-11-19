@@ -1,0 +1,75 @@
+scenario,country,sheet,ref,value,note
+# ---------------------------------------------------------------------------
+# The eight scenarios of Table 4, as workbook cell values.
+#
+# NOT guessed: this mapping was recovered from the sixteen original run files
+# (modelo brasil/S0-S7.vdfx and modelo chile/S0-S7.vdfx) by reading back the
+# constants each run actually used. It reproduces the author's own scenario
+# definition rather than reconstructing it from the text.
+#
+#   General Parameters B22          -> Switch GETs   (0 disabled / 1 enabled)
+#   General Parameters B23          -> Switch BESS   (0 disabled / 1 enabled)
+#   Trans Investment parameters C7  -> Other Transmission delays TG
+#                                      (transmission for generation connection;
+#                                       this is what the paper calls the
+#                                       GENERATION delay)
+#   Trans Investment parameters E7  -> Other Transmission delays TI[Lines]
+#   Trans Investment parameters F7  -> Other Transmission delays TI[GETs]
+#     E7 and F7 are one range read: the model declares
+#     Other Transmission delays TI[TrasmTech] = GET XLS CONSTANTS(...,'E7')
+#     and TrasmTech = {Lines, GETs}, so Vensim reads E7 into Lines and F7 into
+#     GETs. That is how the GET increment can differ from the line increment,
+#     and it is why Chile takes +12 where Brazil takes +24.
+#
+#   "Gen Investment parameters" row 5 is NOT touched by any scenario: it stayed
+#   at its base value (-12, and -9.6 for PV) in all sixteen original runs,
+#   including S1.
+#
+# A row with an empty country applies to both; a row naming a country overrides
+# the shared row for the same scenario and cell.
+# ---------------------------------------------------------------------------
+S0,,General Parameters,B22,0,GETs disabled
+S0,,General Parameters,B23,0,BESS disabled
+S0,,Trans Investment parameters,C7,0,nominal
+S0,,Trans Investment parameters,E7,0,nominal
+S0,,Trans Investment parameters,F7,0,nominal
+S1,,General Parameters,B22,0,GETs disabled
+S1,,General Parameters,B23,0,BESS disabled
+S1,,Trans Investment parameters,C7,24,generation delay +24
+S1,,Trans Investment parameters,E7,0,no transmission delay
+S1,,Trans Investment parameters,F7,0,no GET delay
+S2,,General Parameters,B22,0,GETs disabled
+S2,,General Parameters,B23,0,BESS disabled
+S2,,Trans Investment parameters,C7,0,no generation delay
+S2,,Trans Investment parameters,E7,24,transmission delay +24
+S2,Brazil,Trans Investment parameters,F7,24,GET delay +24 (Brazil)
+S2,Chile,Trans Investment parameters,F7,12,GET delay +12 (Chile)
+S3,,General Parameters,B22,0,GETs disabled
+S3,,General Parameters,B23,0,BESS disabled
+S3,,Trans Investment parameters,C7,24,generation delay +24
+S3,,Trans Investment parameters,E7,24,transmission delay +24
+S3,Brazil,Trans Investment parameters,F7,24,GET delay +24 (Brazil)
+S3,Chile,Trans Investment parameters,F7,12,GET delay +12 (Chile)
+S4,,General Parameters,B22,0,GETs disabled
+S4,,General Parameters,B23,1,BESS enabled
+S4,,Trans Investment parameters,C7,24,generation delay +24
+S4,,Trans Investment parameters,E7,24,transmission delay +24
+S4,Brazil,Trans Investment parameters,F7,24,GET delay +24 (Brazil)
+S4,Chile,Trans Investment parameters,F7,12,GET delay +12 (Chile)
+S5,,General Parameters,B22,1,GETs enabled
+S5,,General Parameters,B23,0,BESS disabled
+S5,,Trans Investment parameters,C7,24,generation delay +24
+S5,,Trans Investment parameters,E7,24,transmission delay +24
+S5,Brazil,Trans Investment parameters,F7,24,GET delay +24 (Brazil)
+S5,Chile,Trans Investment parameters,F7,12,GET delay +12 (Chile)
+S6,,General Parameters,B22,1,GETs enabled
+S6,,General Parameters,B23,1,BESS enabled
+S6,,Trans Investment parameters,C7,24,generation delay +24
+S6,,Trans Investment parameters,E7,24,transmission delay +24
+S6,Brazil,Trans Investment parameters,F7,24,GET delay +24 (Brazil)
+S6,Chile,Trans Investment parameters,F7,12,GET delay +12 (Chile)
+S7,,General Parameters,B22,1,GETs enabled
+S7,,General Parameters,B23,1,BESS enabled
+S7,,Trans Investment parameters,C7,0,nominal
+S7,,Trans Investment parameters,E7,0,nominal
+S7,,Trans Investment parameters,F7,0,nominal

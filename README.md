@@ -11,19 +11,29 @@ The repository contains **two instances of the same model**, one for each countr
 ```
 modelo/
   brasil/
-    ModeloBR.mdl      Vensim model (editable text)       — 743 KB
-    ModeloBR.vpmx     Published model (packaged)         — 41 MB
-    BRASIL.xlsx       Input data workbook                — 7.1 MB
-  chile/
-    ModeloCL.mdl      Vensim model (editable text)
-    ModeloCL.vpmx     Published model (packaged)
-    CHILE.xlsx        Input data workbook
-results/
-  BRASIL.xlsx         Frozen copy of the workbook used for the reported run
-  CHILE.xlsx          Frozen copy of the workbook used for the reported run
+    ModeloBR.mdl           Vensim model as originally released (editable text)
+    ModeloBR.vpmx          Published model (packaged)                      — 41 MB
+    ModeloBR_exposed.mdl   Same equations; Pi* = 1.2 and theta = 1e8 exposed as named
+                           constants (analysis/expose_constants.py). Used for B1, B6, V4, B5.
+    ModeloBR_H.mdl         _exposed plus an explicit planning-horizon switch
+                           (analysis/add_horizon_switch.py). Used for Table 3, H1 and A1.
+    BRASIL.xlsx            Input data workbook
+    BRASIL.flat.xlsx       Same workbook with every formula replaced by its value
+                           (what the batch driver feeds to Vensim)
+  chile/                   Same layout: ModeloCL*.mdl, CHILE.xlsx, CHILE.flat.xlsx
+analysis/                  Python drivers (Vensim DSS DLL), scenario and experiment
+                           definitions (analysis/config/*.csv, *.json), LHS designs
+paper_scripts/             Scripts that turn the results below into the article's
+                           tables and figures
+results/                   Outputs of every experiment reported in the article (Section 7)
+validation/units_check/    Vensim Units Check reports for both models and classification script
+dispatch/                  PyPSA notebook for the external dispatch (Brazil only, not used
+                           in the reported runs)
+tests/                     Unit tests of the Python side (pytest)
 ```
 
-> **Note on `results/`:** this directory currently contains **copies of the data workbooks** used to produce the reported results. They have the same sheets and values as those under `modelo/*/`, except for possible rounding in the last digit after re-saving. It does not yet contain Vensim output files (`.vdfx`) or exported time series. Its purpose is to document *which data* generated the presented results.
+The three model variants differ only in the equations listed above; all other 1,554
+equations are identical, and Brazil and Chile share every equation and unit declaration.
 
 ### Model at a glance
 
@@ -201,9 +211,56 @@ Input sheets and their primary roles:
 
 ---
 
-## 7. Reproducing the reported results
+## 7. Reproducing the reported results (article in *Energy*)
 
-1. Use the workbooks under `modelo/brasil/` and `modelo/chile/` **without modifying them**. The copies under `results/` are equivalent except for possible rounding in the last digit after re-saving.
+### 7.1 What each result is and where it comes from
+
+| Article item | Experiment | Results folder | Produced by |
+|---|---|---|---|
+| Table 3 (scenario indicators); Section 5.7 and Supplementary Appendix J (horizon) | S0–S7 with horizon forced to 7 years (H7, identical to the implemented rule) and to 1 year (H1) — 32 runs | `results/H_horizon_table3/` | `python analysis/summarise_horizon.py results/H_horizon_table3` |
+| Section 5.2, Supplementary delay-sweep figure and coefficients | B1: 5 × 5 factorial sweep of generation and transmission delay increments — 50 runs | `results/B1_delay_sweep/` | `python paper_scripts/analyse_b1.py` |
+| Section 5.5 hydrology; Supplementary hydrology table | B6: wet / median / dry inflows on S0, S3, S6 — 18 runs | `results/B6_hydrology/` | `python paper_scripts/analyse_b6_v4.py` |
+| Supplementary Appendix C.4 (extreme-condition tests) | V4: six tests per country — 12 runs | `results/V4_extreme_conditions/` | `python paper_scripts/analyse_b6_v4.py` |
+| Section 5.5 parameter uncertainty; Supplementary Appendix C.6 | B5: Latin hypercube, 100 samples per country, seed 2026 | `results/B5_latin_hypercube/` | `python paper_scripts/make_sensitivity_tables_b5.py` and `plot_sensitivity_b5.py` |
+| Supplementary Appendix C.2 (units check, corrected cost) | A1: S0 and S3 with distributed capacity saved — 4 runs | `results/A1_units_der_cost/` | `python analysis/der_cost_check.py` |
+
+Every results folder holds, per country, `results.csv` (one row per run, end-of-horizon
+values), `trajectories.csv.gz` (full monthly series in long form: `run_id, variable, time,
+value`) and, where relevant, the design (`samples.csv`) and its `metadata.json`. The scripts
+read the compressed files directly. `results/source_workbooks/` keeps the workbooks of the
+originally released run.
+
+### 7.2 Re-running the simulations (Windows, Vensim DSS 64-bit, Excel)
+
+1. Copy the repository to a short local path **without spaces or accents and outside any
+   cloud-synced folder** (for example `C:5ensimpypsa`); the Vensim DLL rejects other paths.
+2. Open each model variant once in Vensim DSS, run it, and publish it as `.vpmx` next to the
+   `.mdl` (`File > Publish`). Remove stale `.vdfx` files from *Additional files* in the publish
+   dialog. A `.vpmx` published before a first run loads but refuses to simulate.
+3. `pip install -r requirements.txt`, then run an experiment, for example Table 3:
+   ```
+   python analysis/scenarios.py --config analysis/config/chile_horizon.json           --scenarios analysis/config/scenarios_horizon.csv --out results/horizon/chile
+   ```
+   Scenarios are declared as workbook cell writes in `analysis/config/scenarios*.csv`, so their
+   definition can be audited next to the results. `--dry-run` lists the writes without Vensim.
+4. Do not use Excel while the driver runs: it closes all Excel processes before each scenario.
+   Give every `--only` run its own `--out` folder, because outputs in a folder are overwritten.
+5. `run_horizon.sh`, `run_all.sh` and `run_der.sh` reproduce the batches used for the article.
+
+### 7.3 Checks
+
+- `python -m pytest tests` (38 tests, no Vensim needed).
+- Running `analysis/summarise_horizon.py` on the shipped trajectories reproduces
+  `results/H_horizon_table3/summary_horizon.csv` exactly; its H7 rows are Table 3 of the article.
+
+### 7.4 Interactive run of the released model
+
+1. Use the workbooks under `modelo/brasil/` and `modelo/chile/` **without modifying them**.
 2. Confirm that `General Parameters!B24 = 0` and that the other switches match the table in Section 4.
 3. Run `ModeloBR.mdl` with the run name `BR_base` and `ModeloCL.mdl` with `CL_base`.
-4. Export the time series from the **Analysis Variables** view using `Model > Export Dataset…` to `.tab` or `.xlsx` for comparison and documentation.
+4. Export the time series from the **Analysis Variables** view using `Model > Export Dataset…`.
+
+## 8. Licence and citation
+
+Code under the MIT licence (`LICENSE`); models, data, results and documentation under
+CC BY 4.0 (`LICENSE-DATA`). See `CITATION.cff` for how to cite the software and the article.

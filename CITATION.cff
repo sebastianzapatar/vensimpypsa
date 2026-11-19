@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: >-
+  Vensim–PyPSA coupled model for power system expansion under
+  infrastructure constraints (Brazil and Chile)
+message: >-
+  If you use this model or its data, please cite both the software
+  and the associated article.
+type: software
+authors:
+  - given-names: Valentina
+    family-names: Betancur
+    affiliation: Universidad EIA
+  - given-names: Enrique
+    family-names: Ángel
+    affiliation: Universidad EIA
+  - given-names: Mariana
+    family-names: Gonzalez
+    affiliation: Universidad EIA
+  - given-names: Duvan
+    family-names: Gomez
+    affiliation: Universidad EIA
+  - given-names: Carolina
+    family-names: Montoya
+    affiliation: Universidad EIA
+  - given-names: Sebastian
+    family-names: Zapata
+    affiliation: Universidad EIA
+    email: szapatar@unal.edu.co
+repository-code: 'https://github.com/sebastianzapatar/vensimpypsa'
+license:
+  - MIT
+  - CC-BY-4.0
+license-url: 'https://github.com/sebastianzapatar/vensimpypsa/blob/main/LICENSE'
+version: 1.1.0
+date-released: '2026-11-20'
+keywords:
+  - power system expansion planning
+  - system dynamics
+  - infrastructure delays
+  - congestion
+  - battery energy storage
+  - grid-enhancing technologies

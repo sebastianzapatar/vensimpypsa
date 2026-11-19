@@ -1,0 +1,10 @@
+# Python side of the coupled model (dispatch and post-processing).
+# The Vensim side requires a licensed Vensim DSS installation; see README.
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1
+matplotlib>=3.8
+pypsa>=0.27
+highspy>=1.5        # LP solver used by PyPSA
+jupyter>=1.0
+scipy>=1.11         # Latin Hypercube sampling
