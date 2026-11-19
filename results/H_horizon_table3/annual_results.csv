@@ -1,0 +1,1665 @@
+Country,Metric,Metric label,Unit,Year,Scenario,Value
+Brazil,installed_capacity,Total installed capacity,GW,2025,S0,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S0,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S0,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S0,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S0,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S0,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S0,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2032,S0,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2033,S0,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2034,S0,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2035,S0,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2036,S0,367.76678
+Brazil,installed_capacity,Total installed capacity,GW,2037,S0,378.99274
+Brazil,installed_capacity,Total installed capacity,GW,2038,S0,402.21402
+Brazil,installed_capacity,Total installed capacity,GW,2039,S0,408.39301
+Brazil,installed_capacity,Total installed capacity,GW,2040,S0,449.35068
+Brazil,installed_capacity,Total installed capacity,GW,2041,S0,464.19601
+Brazil,installed_capacity,Total installed capacity,GW,2042,S0,488.70877
+Brazil,installed_capacity,Total installed capacity,GW,2043,S0,506.38885
+Brazil,installed_capacity,Total installed capacity,GW,2044,S0,515.50977
+Brazil,installed_capacity,Total installed capacity,GW,2045,S0,537.97919
+Brazil,installed_capacity,Total installed capacity,GW,2046,S0,563.75934
+Brazil,installed_capacity,Total installed capacity,GW,2047,S0,585.82074
+Brazil,installed_capacity,Total installed capacity,GW,2048,S0,613.78076
+Brazil,installed_capacity,Total installed capacity,GW,2049,S0,639.99408
+Brazil,installed_capacity,Total installed capacity,GW,2050,S0,639.99408
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S0,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S0,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S0,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S0,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S0,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S0,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S0,270.17894
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S0,277.84275
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S0,284.31725
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S0,293.19728000000003
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S0,309.26856
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S0,316.26966
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S0,324.71025
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S0,332.18603
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S0,341.44888000000003
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S0,355.43875
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S0,364.54947
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S0,373.26988
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S0,382.525
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S0,392.01338
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S0,409.95890999999995
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S0,421.13340999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S0,436.10197
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S0,458.0155
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S0,469.81834000000003
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S0,469.82425
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S0,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S0,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S0,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S0,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S0,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S0,74.08309542361111
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S0,73.71792820486111
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S0,57.26172287152778
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S0,57.098539565972224
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S0,60.21285405555556
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S0,58.25280946875
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S0,59.52224138194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S0,54.13433245138889
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S0,56.44964707291667
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S0,53.64245439583333
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S0,52.779942267361115
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S0,47.325973743055556
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S0,47.03879711458333
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S0,42.02129478472222
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S0,45.06592834027777
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S0,40.02218068402778
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S0,42.48414912847222
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S0,40.002240125
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S0,42.69054353125
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S0,38.136377357638885
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S0,40.99630483333333
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S0,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S0,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S0,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S0,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S0,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S0,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S0,27.24891825
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S0,39.92575889583333
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S0,38.521350087500004
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S0,39.16509693541666
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S0,41.40504995833333
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S0,40.4107629875
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S0,41.01481519375
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S0,40.863425174999996
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S0,41.30957868125
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S0,41.412237320833334
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S0,44.41625183333333
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S0,43.92459416666667
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S0,44.030440104166665
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S0,42.784547833333335
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S0,41.14236542291667
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S0,42.046420939583335
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S0,42.4351565625
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S0,42.84154429375
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S0,43.152325106250004
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S0,34.738836
+Brazil,installed_capacity,Total installed capacity,GW,2025,S1,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S1,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S1,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S1,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S1,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S1,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S1,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2032,S1,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2033,S1,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2034,S1,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2035,S1,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2036,S1,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2037,S1,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2038,S1,367.76678
+Brazil,installed_capacity,Total installed capacity,GW,2039,S1,378.99274
+Brazil,installed_capacity,Total installed capacity,GW,2040,S1,402.19754
+Brazil,installed_capacity,Total installed capacity,GW,2041,S1,408.3392
+Brazil,installed_capacity,Total installed capacity,GW,2042,S1,449.08383
+Brazil,installed_capacity,Total installed capacity,GW,2043,S1,456.53326
+Brazil,installed_capacity,Total installed capacity,GW,2044,S1,490.0177
+Brazil,installed_capacity,Total installed capacity,GW,2045,S1,506.98196
+Brazil,installed_capacity,Total installed capacity,GW,2046,S1,516.25946
+Brazil,installed_capacity,Total installed capacity,GW,2047,S1,538.91412
+Brazil,installed_capacity,Total installed capacity,GW,2048,S1,565.45654
+Brazil,installed_capacity,Total installed capacity,GW,2049,S1,587.40991
+Brazil,installed_capacity,Total installed capacity,GW,2050,S1,587.40991
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S1,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S1,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S1,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S1,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S1,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S1,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S1,216.84897
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S1,219.65389000000002
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S1,273.87275
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S1,282.00872
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S1,297.69221999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S1,304.51921999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S1,311.57119
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S1,319.54488
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S1,330.44959
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S1,337.07103
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S1,345.59490999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S1,360.44716
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S1,369.29465999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S1,388.19656
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S1,396.67834000000005
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S1,407.50269000000003
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S1,417.08225
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S1,435.01569
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S1,446.40269
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S1,446.42665999999997
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S1,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S1,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S1,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S1,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S1,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S1,74.08309542361111
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S1,80.63605591319445
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S1,87.74661607638889
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S1,83.2313205798611
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S1,65.20713455902778
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S1,68.27155430555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S1,69.73402603819444
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S1,64.59942773263889
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S1,67.08388139930555
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S1,62.62334475694445
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S1,63.57332335763889
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S1,63.17015090277778
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S1,65.70394088541667
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S1,56.923842541666666
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S1,57.44033464583333
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S1,51.13525902777778
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S1,54.21682086111111
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S1,52.71800077083333
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S1,54.23982488888888
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S1,48.32988139583333
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S1,52.000359833333334
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S1,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S1,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S1,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S1,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S1,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S1,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S1,18.6300206875
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S1,15.213719013541668
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S1,20.415056690625
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S1,30.76420404166667
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S1,29.564446191666665
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S1,30.265428985416666
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S1,32.244941716666666
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S1,31.32056594166667
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S1,31.58204885416667
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S1,31.9058483625
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S1,32.2013810875
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S1,33.07775915625
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S1,35.17914205416667
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S1,35.347936912499996
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S1,36.8081872375
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S1,35.609886545833334
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S1,34.18337871666667
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S1,34.883255991666665
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S1,35.39124542291667
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S1,24.402225
+Brazil,installed_capacity,Total installed capacity,GW,2025,S2,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S2,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S2,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S2,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S2,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S2,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S2,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2032,S2,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2033,S2,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2034,S2,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2035,S2,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2036,S2,367.76678
+Brazil,installed_capacity,Total installed capacity,GW,2037,S2,378.99274
+Brazil,installed_capacity,Total installed capacity,GW,2038,S2,402.21411
+Brazil,installed_capacity,Total installed capacity,GW,2039,S2,408.39368
+Brazil,installed_capacity,Total installed capacity,GW,2040,S2,449.35764
+Brazil,installed_capacity,Total installed capacity,GW,2041,S2,464.20816
+Brazil,installed_capacity,Total installed capacity,GW,2042,S2,488.73547
+Brazil,installed_capacity,Total installed capacity,GW,2043,S2,506.41373
+Brazil,installed_capacity,Total installed capacity,GW,2044,S2,515.5387
+Brazil,installed_capacity,Total installed capacity,GW,2045,S2,538.04047
+Brazil,installed_capacity,Total installed capacity,GW,2046,S2,563.8739
+Brazil,installed_capacity,Total installed capacity,GW,2047,S2,586.00427
+Brazil,installed_capacity,Total installed capacity,GW,2048,S2,614.08313
+Brazil,installed_capacity,Total installed capacity,GW,2049,S2,640.39734
+Brazil,installed_capacity,Total installed capacity,GW,2050,S2,640.39734
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S2,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S2,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S2,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S2,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S2,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S2,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S2,261.50595
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S2,267.51375
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S2,282.66125
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S2,291.26528
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S2,298.38956
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S2,307.32266
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S2,324.71025
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S2,332.18581
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S2,339.42538
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S2,353.38165999999995
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S2,362.64225
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S2,371.63219
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S2,382.3135
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S2,390.21003
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S2,401.82756
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S2,414.64396999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S2,428.34121999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S2,441.85338
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S2,457.97216
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S2,457.97805999999997
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S2,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S2,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S2,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S2,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S2,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S2,74.08838278472221
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S2,73.85669482986111
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S2,56.89801242708333
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S2,56.655547534722224
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S2,60.319101680555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S2,58.805262284722225
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S2,57.25221493055556
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S2,49.27058493055555
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S2,50.952221288194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S2,51.17526280902778
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S2,50.56477664930555
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S2,42.51567657291667
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S2,45.187441649305555
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S2,39.39623697222222
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S2,44.369391381944446
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S2,39.82491667361111
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S2,40.201048944444445
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S2,35.242518930555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S2,36.78576380902778
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S2,35.9164583125
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S2,41.8580225
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S2,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S2,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S2,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S2,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S2,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S2,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S2,27.248920175
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S2,39.92570045833333
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S2,38.52110192083333
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S2,39.16421628958333
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S2,41.472246125
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S2,40.56147121666667
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S2,41.01113337291667
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S2,40.84809485416667
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S2,41.169000985416666
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S2,41.34420965208333
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S2,44.38811789583334
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S2,43.675502458333334
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S2,43.90791102083333
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S2,42.55481910416667
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S2,41.034171758333336
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S2,41.91358204583333
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S2,42.353063375
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S2,42.7863421125
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S2,43.04230179583333
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S2,34.782851
+Brazil,installed_capacity,Total installed capacity,GW,2025,S3,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S3,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S3,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S3,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S3,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S3,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S3,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2032,S3,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2033,S3,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2034,S3,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2035,S3,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2036,S3,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2037,S3,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2038,S3,367.76678
+Brazil,installed_capacity,Total installed capacity,GW,2039,S3,378.99274
+Brazil,installed_capacity,Total installed capacity,GW,2040,S3,402.19757
+Brazil,installed_capacity,Total installed capacity,GW,2041,S3,408.33984
+Brazil,installed_capacity,Total installed capacity,GW,2042,S3,449.08749
+Brazil,installed_capacity,Total installed capacity,GW,2043,S3,456.5379
+Brazil,installed_capacity,Total installed capacity,GW,2044,S3,490.0271
+Brazil,installed_capacity,Total installed capacity,GW,2045,S3,506.98999
+Brazil,installed_capacity,Total installed capacity,GW,2046,S3,516.26196
+Brazil,installed_capacity,Total installed capacity,GW,2047,S3,538.89941
+Brazil,installed_capacity,Total installed capacity,GW,2048,S3,565.41431
+Brazil,installed_capacity,Total installed capacity,GW,2049,S3,587.33795
+Brazil,installed_capacity,Total installed capacity,GW,2050,S3,587.33795
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S3,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S3,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S3,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S3,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S3,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S3,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S3,208.17597
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S3,209.32489
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S3,272.21678
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S3,280.07671999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S3,286.81321999999994
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S3,295.57221999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S3,311.57119
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S3,319.54488
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S3,328.10459000000003
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S3,334.72575
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S3,342.12353
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S3,356.72297
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S3,367.23028000000005
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S3,376.40040999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S3,387.65706
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S3,398.73821999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S3,408.57912
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S3,422.78522
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S3,439.98091
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S3,440.00491
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S3,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S3,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S3,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S3,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S3,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S3,74.08838278472221
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S3,80.75532332986111
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S3,87.49695691319444
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S3,82.77346505555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S3,65.04617966666667
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S3,67.9031091388889
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S3,70.85332027083334
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S3,67.87438994444445
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S3,68.84820420833334
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S3,64.02807990277778
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S3,63.73934763888889
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S3,60.633899673611104
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S3,62.83476827083334
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S3,56.797606798611106
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S3,55.084533684027775
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S3,44.94562652430556
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S3,49.45336667361111
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S3,47.323144250000006
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S3,48.51016380208333
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S3,46.570783138888885
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S3,48.387503333333335
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S3,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S3,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S3,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S3,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S3,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S3,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S3,18.630019279166667
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S3,15.213700376041666
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S3,20.414917628125
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S3,30.763837145833335
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S3,29.5642610875
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S3,30.264776341666664
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S3,32.244645552083334
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S3,31.320788072916667
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S3,31.585200675
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S3,31.913253895833336
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S3,32.245341175
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S3,33.08261097291667
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S3,35.18348740625
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S3,35.351550089583334
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S3,36.806944602083334
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S3,35.60006218958333
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S3,34.16168852083333
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S3,34.84432837083333
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S3,35.409441216666664
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S3,24.366392
+Brazil,installed_capacity,Total installed capacity,GW,2025,S4,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S4,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S4,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S4,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S4,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S4,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S4,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2032,S4,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2033,S4,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2034,S4,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2035,S4,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2036,S4,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2037,S4,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2038,S4,367.76678
+Brazil,installed_capacity,Total installed capacity,GW,2039,S4,378.99274
+Brazil,installed_capacity,Total installed capacity,GW,2040,S4,402.19757
+Brazil,installed_capacity,Total installed capacity,GW,2041,S4,408.33984
+Brazil,installed_capacity,Total installed capacity,GW,2042,S4,449.08746
+Brazil,installed_capacity,Total installed capacity,GW,2043,S4,464.0011
+Brazil,installed_capacity,Total installed capacity,GW,2044,S4,497.33307
+Brazil,installed_capacity,Total installed capacity,GW,2045,S4,505.57639
+Brazil,installed_capacity,Total installed capacity,GW,2046,S4,514.98761
+Brazil,installed_capacity,Total installed capacity,GW,2047,S4,546.48187
+Brazil,installed_capacity,Total installed capacity,GW,2048,S4,560.0119
+Brazil,installed_capacity,Total installed capacity,GW,2049,S4,582.39172
+Brazil,installed_capacity,Total installed capacity,GW,2050,S4,582.39172
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S4,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S4,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S4,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S4,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S4,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S4,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S4,208.17597
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S4,209.32489
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S4,271.90069
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S4,278.51746999999995
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S4,284.14716
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S4,292.27812
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S4,307.31438
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S4,314.62038
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S4,322.437
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S4,328.48546999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S4,335.33625
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S4,349.99844
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S4,360.15312
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S4,371.01931
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S4,379.14446999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S4,386.24294
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S4,395.73875
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S4,416.73112
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S4,427.91012
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S4,427.91381
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S4,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S4,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S4,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S4,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S4,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S4,74.08838278472221
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S4,80.75532332986111
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S4,87.49695691319444
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S4,82.76977628472223
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S4,64.96014012847222
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S4,67.70931780555556
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S4,70.59982011458332
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S4,67.43242643055555
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S4,69.65189467708333
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S4,66.00793206597223
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S4,69.48379863541666
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S4,67.58761465972222
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S4,64.52015821527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S4,53.127693847222226
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S4,52.95516596527778
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S4,41.18790102777778
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S4,48.047627965277776
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S4,44.44086056597222
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S4,49.030915315972216
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S4,48.033759482638885
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S4,50.58417500000001
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S4,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S4,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S4,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S4,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S4,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S4,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S4,18.630019279166667
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S4,15.213700376041666
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S4,20.444755190625
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S4,31.073001766666668
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S4,30.092996410416664
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S4,30.8818802625
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S4,33.22119555208334
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S4,32.430699089583335
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S4,33.08174792083333
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S4,33.53924104375
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S4,33.835420722916666
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S4,34.72366845416666
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S4,38.10230739791667
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S4,38.71900098541666
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S4,38.924344947916666
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S4,36.89895124791666
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S4,36.41577622083333
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S4,36.57477968958333
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S4,35.727110260416666
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S4,23.251268
+Brazil,installed_capacity,Total installed capacity,GW,2025,S5,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S5,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S5,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S5,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S5,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S5,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S5,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2032,S5,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2033,S5,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2034,S5,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2035,S5,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2036,S5,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2037,S5,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2038,S5,367.76678
+Brazil,installed_capacity,Total installed capacity,GW,2039,S5,378.99274
+Brazil,installed_capacity,Total installed capacity,GW,2040,S5,402.19757
+Brazil,installed_capacity,Total installed capacity,GW,2041,S5,408.33969
+Brazil,installed_capacity,Total installed capacity,GW,2042,S5,449.08743
+Brazil,installed_capacity,Total installed capacity,GW,2043,S5,456.53757
+Brazil,installed_capacity,Total installed capacity,GW,2044,S5,490.02567
+Brazil,installed_capacity,Total installed capacity,GW,2045,S5,506.9902
+Brazil,installed_capacity,Total installed capacity,GW,2046,S5,516.26819
+Brazil,installed_capacity,Total installed capacity,GW,2047,S5,538.91949
+Brazil,installed_capacity,Total installed capacity,GW,2048,S5,565.45575
+Brazil,installed_capacity,Total installed capacity,GW,2049,S5,587.3952
+Brazil,installed_capacity,Total installed capacity,GW,2050,S5,587.3952
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S5,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S5,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S5,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S5,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S5,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S5,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S5,208.17597
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S5,209.32489
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S5,272.21678
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S5,278.42071999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S5,285.15722
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S5,292.53621999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S5,307.52319
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S5,315.49688000000003
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S5,324.05659
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S5,330.67775
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S5,337.93872
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S5,352.81603
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S5,362.77244
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S5,370.83794
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S5,388.30969
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S5,399.13284000000004
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S5,408.43728000000004
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S5,422.12844
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S5,433.27515999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S5,433.29912
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S5,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S5,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S5,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S5,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S5,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S5,74.08838278472221
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S5,80.75532332986111
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S5,87.49695691319444
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S5,82.77844433333333
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S5,65.15222627083334
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S5,67.89269160069445
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S5,69.74057308680555
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S5,65.39934532291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S5,66.68893945486111
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S5,65.12372939236111
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S5,64.47255975
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S5,60.66522788888889
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S5,60.878052690972225
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S5,49.86078277083333
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S5,50.67150800694444
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S5,45.12982310763889
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S5,48.80803849652778
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S5,47.17845625347223
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S5,48.92657380208333
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S5,48.24449131944445
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S5,48.65755333333333
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S5,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S5,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S5,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S5,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S5,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S5,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S5,18.630019279166667
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S5,15.213700376041666
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S5,20.414917628125
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S5,30.763833458333334
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S5,29.5642672125
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S5,30.2648343125
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S5,32.24450347916667
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S5,31.320406085416664
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S5,31.581243247916664
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S5,31.906351295833332
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S5,32.23694158958333
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S5,33.078043735416664
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S5,35.08721650208333
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S5,35.32807369375
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S5,36.753487175
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S5,35.55545505833333
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S5,34.195474895833335
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S5,34.805186522916664
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S5,35.29038008958333
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S5,24.358200999999998
+Brazil,installed_capacity,Total installed capacity,GW,2025,S6,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S6,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S6,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S6,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S6,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S6,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S6,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2032,S6,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2033,S6,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2034,S6,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2035,S6,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2036,S6,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2037,S6,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2038,S6,367.76678
+Brazil,installed_capacity,Total installed capacity,GW,2039,S6,378.99274
+Brazil,installed_capacity,Total installed capacity,GW,2040,S6,402.19757
+Brazil,installed_capacity,Total installed capacity,GW,2041,S6,408.33969
+Brazil,installed_capacity,Total installed capacity,GW,2042,S6,449.08737
+Brazil,installed_capacity,Total installed capacity,GW,2043,S6,464.00067
+Brazil,installed_capacity,Total installed capacity,GW,2044,S6,497.33148
+Brazil,installed_capacity,Total installed capacity,GW,2045,S6,505.57608
+Brazil,installed_capacity,Total installed capacity,GW,2046,S6,514.99359
+Brazil,installed_capacity,Total installed capacity,GW,2047,S6,546.52087
+Brazil,installed_capacity,Total installed capacity,GW,2048,S6,560.07104
+Brazil,installed_capacity,Total installed capacity,GW,2049,S6,582.54443
+Brazil,installed_capacity,Total installed capacity,GW,2050,S6,582.54443
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S6,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S6,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S6,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S6,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S6,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S6,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S6,208.17597
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S6,209.32489
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S6,271.90069
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S6,276.86147
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S6,282.49116
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S6,289.24215999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S6,303.26653000000005
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S6,310.57453000000004
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S6,318.39630999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S6,324.45372
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S6,331.14262
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S6,346.12675
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S6,356.01509000000004
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S6,365.51106
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S6,375.16334
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S6,382.2745
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S6,391.52659
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S6,401.81197
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S6,413.85678
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S6,413.861
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S6,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S6,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S6,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S6,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S6,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S6,74.08838278472221
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S6,80.75532332986111
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S6,87.49695691319444
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S6,82.76095819791666
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S6,64.93766595486112
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S6,67.59297699652778
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S6,69.31681403819444
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S6,64.91306818402778
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S6,62.788898170138886
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S6,57.354970163194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S6,63.3472245
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S6,64.68403972569445
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S6,63.39404743055556
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S6,50.346296718750004
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S6,53.48926367361111
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S6,46.530948559027784
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S6,52.57102370138889
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S6,48.52804201736111
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S6,51.46383175
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S6,50.141172090277784
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S6,49.95080183333334
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S6,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S6,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S6,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S6,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S6,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S6,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S6,18.630019279166667
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S6,15.213700376041666
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S6,20.444755503125
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S6,31.073092747916665
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S6,30.092983604166665
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S6,30.881110666666668
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S6,33.21489068333333
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S6,32.40956597708333
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S6,33.024592825
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S6,33.409923927083334
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S6,33.70012149375
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S6,34.57231013958333
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S6,37.932045341666665
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S6,38.487280677083334
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S6,38.726458275
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S6,36.693699352083335
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S6,36.13672497708333
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S6,36.44897435208333
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S6,35.655467127083334
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S6,23.244564
+Brazil,installed_capacity,Total installed capacity,GW,2025,S7,198.881
+Brazil,installed_capacity,Total installed capacity,GW,2026,S7,206.7347
+Brazil,installed_capacity,Total installed capacity,GW,2027,S7,209.73816
+Brazil,installed_capacity,Total installed capacity,GW,2028,S7,222.87798
+Brazil,installed_capacity,Total installed capacity,GW,2029,S7,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2030,S7,233.99057
+Brazil,installed_capacity,Total installed capacity,GW,2031,S7,296.35178
+Brazil,installed_capacity,Total installed capacity,GW,2032,S7,308.59238
+Brazil,installed_capacity,Total installed capacity,GW,2033,S7,313.66013
+Brazil,installed_capacity,Total installed capacity,GW,2034,S7,342.26099
+Brazil,installed_capacity,Total installed capacity,GW,2035,S7,347.49957
+Brazil,installed_capacity,Total installed capacity,GW,2036,S7,367.76675
+Brazil,installed_capacity,Total installed capacity,GW,2037,S7,378.99298
+Brazil,installed_capacity,Total installed capacity,GW,2038,S7,402.21411
+Brazil,installed_capacity,Total installed capacity,GW,2039,S7,408.39343
+Brazil,installed_capacity,Total installed capacity,GW,2040,S7,449.35455
+Brazil,installed_capacity,Total installed capacity,GW,2041,S7,464.2081
+Brazil,installed_capacity,Total installed capacity,GW,2042,S7,488.73499
+Brazil,installed_capacity,Total installed capacity,GW,2043,S7,506.44064
+Brazil,installed_capacity,Total installed capacity,GW,2044,S7,515.58527
+Brazil,installed_capacity,Total installed capacity,GW,2045,S7,538.09711
+Brazil,installed_capacity,Total installed capacity,GW,2046,S7,563.96472
+Brazil,installed_capacity,Total installed capacity,GW,2047,S7,586.12689
+Brazil,installed_capacity,Total installed capacity,GW,2048,S7,614.20233
+Brazil,installed_capacity,Total installed capacity,GW,2049,S7,640.53113
+Brazil,installed_capacity,Total installed capacity,GW,2050,S7,640.53113
+Brazil,total_transmission,Total transmission line length,thousand km,2025,S7,187.387
+Brazil,total_transmission,Total transmission line length,thousand km,2026,S7,194.70622
+Brazil,total_transmission,Total transmission line length,thousand km,2027,S7,196.73523
+Brazil,total_transmission,Total transmission line length,thousand km,2028,S7,200.66085999999999
+Brazil,total_transmission,Total transmission line length,thousand km,2029,S7,204.80492
+Brazil,total_transmission,Total transmission line length,thousand km,2030,S7,207.31678
+Brazil,total_transmission,Total transmission line length,thousand km,2031,S7,269.78494
+Brazil,total_transmission,Total transmission line length,thousand km,2032,S7,274.74571999999995
+Brazil,total_transmission,Total transmission line length,thousand km,2033,S7,280.28621999999996
+Brazil,total_transmission,Total transmission line length,thousand km,2034,S7,286.77425
+Brazil,total_transmission,Total transmission line length,thousand km,2035,S7,300.81244
+Brazil,total_transmission,Total transmission line length,thousand km,2036,S7,307.17125
+Brazil,total_transmission,Total transmission line length,thousand km,2037,S7,314.84346999999997
+Brazil,total_transmission,Total transmission line length,thousand km,2038,S7,321.91947
+Brazil,total_transmission,Total transmission line length,thousand km,2039,S7,328.79734
+Brazil,total_transmission,Total transmission line length,thousand km,2040,S7,342.81215999999995
+Brazil,total_transmission,Total transmission line length,thousand km,2041,S7,351.02716
+Brazil,total_transmission,Total transmission line length,thousand km,2042,S7,359.57075
+Brazil,total_transmission,Total transmission line length,thousand km,2043,S7,367.58615999999995
+Brazil,total_transmission,Total transmission line length,thousand km,2044,S7,375.74516
+Brazil,total_transmission,Total transmission line length,thousand km,2045,S7,385.58828000000005
+Brazil,total_transmission,Total transmission line length,thousand km,2046,S7,402.43906
+Brazil,total_transmission,Total transmission line length,thousand km,2047,S7,413.90709000000004
+Brazil,total_transmission,Total transmission line length,thousand km,2048,S7,430.96109
+Brazil,total_transmission,Total transmission line length,thousand km,2049,S7,442.01769
+Brazil,total_transmission,Total transmission line length,thousand km,2050,S7,442.02509000000003
+Brazil,electricity_price,Average electricity price,USD/MWh,2025,S7,72.27513746875
+Brazil,electricity_price,Average electricity price,USD/MWh,2026,S7,62.19081880555555
+Brazil,electricity_price,Average electricity price,USD/MWh,2027,S7,63.49328963194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2028,S7,65.41494007291666
+Brazil,electricity_price,Average electricity price,USD/MWh,2029,S7,67.73160271527777
+Brazil,electricity_price,Average electricity price,USD/MWh,2030,S7,74.08309542361111
+Brazil,electricity_price,Average electricity price,USD/MWh,2031,S7,73.73417879861111
+Brazil,electricity_price,Average electricity price,USD/MWh,2032,S7,57.16035596875
+Brazil,electricity_price,Average electricity price,USD/MWh,2033,S7,56.75394008680556
+Brazil,electricity_price,Average electricity price,USD/MWh,2034,S7,57.9690620625
+Brazil,electricity_price,Average electricity price,USD/MWh,2035,S7,54.50146267013889
+Brazil,electricity_price,Average electricity price,USD/MWh,2036,S7,57.5657875
+Brazil,electricity_price,Average electricity price,USD/MWh,2037,S7,49.67955768402778
+Brazil,electricity_price,Average electricity price,USD/MWh,2038,S7,51.12590528472222
+Brazil,electricity_price,Average electricity price,USD/MWh,2039,S7,48.78802854166667
+Brazil,electricity_price,Average electricity price,USD/MWh,2040,S7,48.61232214583333
+Brazil,electricity_price,Average electricity price,USD/MWh,2041,S7,41.303857916666665
+Brazil,electricity_price,Average electricity price,USD/MWh,2042,S7,41.61902950694444
+Brazil,electricity_price,Average electricity price,USD/MWh,2043,S7,37.716018642361114
+Brazil,electricity_price,Average electricity price,USD/MWh,2044,S7,42.11994474652778
+Brazil,electricity_price,Average electricity price,USD/MWh,2045,S7,38.10729818055555
+Brazil,electricity_price,Average electricity price,USD/MWh,2046,S7,39.00549212152777
+Brazil,electricity_price,Average electricity price,USD/MWh,2047,S7,34.335872447916664
+Brazil,electricity_price,Average electricity price,USD/MWh,2048,S7,35.79181149652778
+Brazil,electricity_price,Average electricity price,USD/MWh,2049,S7,34.647154038194444
+Brazil,electricity_price,Average electricity price,USD/MWh,2050,S7,36.85858916666667
+Brazil,peak_margin,Peak demand capacity margin,%,2025,S7,32.61794001875
+Brazil,peak_margin,Peak demand capacity margin,%,2026,S7,34.2143435625
+Brazil,peak_margin,Peak demand capacity margin,%,2027,S7,31.813950825000003
+Brazil,peak_margin,Peak demand capacity margin,%,2028,S7,29.554563170833333
+Brazil,peak_margin,Peak demand capacity margin,%,2029,S7,25.987521583333333
+Brazil,peak_margin,Peak demand capacity margin,%,2030,S7,22.225760109166668
+Brazil,peak_margin,Peak demand capacity margin,%,2031,S7,27.267895999999997
+Brazil,peak_margin,Peak demand capacity margin,%,2032,S7,40.1664409375
+Brazil,peak_margin,Peak demand capacity margin,%,2033,S7,39.00254604166667
+Brazil,peak_margin,Peak demand capacity margin,%,2034,S7,39.77429747916667
+Brazil,peak_margin,Peak demand capacity margin,%,2035,S7,41.888734979166664
+Brazil,peak_margin,Peak demand capacity margin,%,2036,S7,41.14930250625
+Brazil,peak_margin,Peak demand capacity margin,%,2037,S7,41.674976281250004
+Brazil,peak_margin,Peak demand capacity margin,%,2038,S7,41.608777325
+Brazil,peak_margin,Peak demand capacity margin,%,2039,S7,41.71406654166667
+Brazil,peak_margin,Peak demand capacity margin,%,2040,S7,42.142242458333335
+Brazil,peak_margin,Peak demand capacity margin,%,2041,S7,44.882162395833326
+Brazil,peak_margin,Peak demand capacity margin,%,2042,S7,44.015114395833336
+Brazil,peak_margin,Peak demand capacity margin,%,2043,S7,44.556462875
+Brazil,peak_margin,Peak demand capacity margin,%,2044,S7,43.184598208333334
+Brazil,peak_margin,Peak demand capacity margin,%,2045,S7,41.752725375000004
+Brazil,peak_margin,Peak demand capacity margin,%,2046,S7,42.586080770833334
+Brazil,peak_margin,Peak demand capacity margin,%,2047,S7,43.18979554166666
+Brazil,peak_margin,Peak demand capacity margin,%,2048,S7,43.61030407083334
+Brazil,peak_margin,Peak demand capacity margin,%,2049,S7,44.07300621666667
+Brazil,peak_margin,Peak demand capacity margin,%,2050,S7,35.250625
+Chile,installed_capacity,Total installed capacity,GW,2025,S0,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S0,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S0,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S0,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S0,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S0,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S0,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2032,S0,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2033,S0,48.067387
+Chile,installed_capacity,Total installed capacity,GW,2034,S0,54.489555
+Chile,installed_capacity,Total installed capacity,GW,2035,S0,56.714733
+Chile,installed_capacity,Total installed capacity,GW,2036,S0,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2037,S0,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2038,S0,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2039,S0,63.802738
+Chile,installed_capacity,Total installed capacity,GW,2040,S0,63.802738
+Chile,installed_capacity,Total installed capacity,GW,2041,S0,69.955391
+Chile,installed_capacity,Total installed capacity,GW,2042,S0,73.056419
+Chile,installed_capacity,Total installed capacity,GW,2043,S0,76.640816
+Chile,installed_capacity,Total installed capacity,GW,2044,S0,76.640816
+Chile,installed_capacity,Total installed capacity,GW,2045,S0,80.478653
+Chile,installed_capacity,Total installed capacity,GW,2046,S0,80.478653
+Chile,installed_capacity,Total installed capacity,GW,2047,S0,92.565315
+Chile,installed_capacity,Total installed capacity,GW,2048,S0,97.192871
+Chile,installed_capacity,Total installed capacity,GW,2049,S0,97.192871
+Chile,installed_capacity,Total installed capacity,GW,2050,S0,97.192871
+Chile,total_transmission,Total transmission line length,thousand km,2025,S0,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S0,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S0,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S0,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S0,26.840893
+Chile,total_transmission,Total transmission line length,thousand km,2030,S0,27.229086
+Chile,total_transmission,Total transmission line length,thousand km,2031,S0,36.38673
+Chile,total_transmission,Total transmission line length,thousand km,2032,S0,37.50257
+Chile,total_transmission,Total transmission line length,thousand km,2033,S0,38.940062
+Chile,total_transmission,Total transmission line length,thousand km,2034,S0,40.367734
+Chile,total_transmission,Total transmission line length,thousand km,2035,S0,41.445461
+Chile,total_transmission,Total transmission line length,thousand km,2036,S0,42.524046999999996
+Chile,total_transmission,Total transmission line length,thousand km,2037,S0,43.576906
+Chile,total_transmission,Total transmission line length,thousand km,2038,S0,44.878082
+Chile,total_transmission,Total transmission line length,thousand km,2039,S0,45.941238
+Chile,total_transmission,Total transmission line length,thousand km,2040,S0,47.056574
+Chile,total_transmission,Total transmission line length,thousand km,2041,S0,48.385207
+Chile,total_transmission,Total transmission line length,thousand km,2042,S0,49.825031
+Chile,total_transmission,Total transmission line length,thousand km,2043,S0,51.271023
+Chile,total_transmission,Total transmission line length,thousand km,2044,S0,52.805176
+Chile,total_transmission,Total transmission line length,thousand km,2045,S0,55.702953
+Chile,total_transmission,Total transmission line length,thousand km,2046,S0,57.364352
+Chile,total_transmission,Total transmission line length,thousand km,2047,S0,59.098203
+Chile,total_transmission,Total transmission line length,thousand km,2048,S0,60.940616999999996
+Chile,total_transmission,Total transmission line length,thousand km,2049,S0,63.02476600000001
+Chile,total_transmission,Total transmission line length,thousand km,2050,S0,63.035027
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S0,251.90173603125
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S0,236.1024207638889
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S0,237.21937071875
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S0,241.03738499652778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S0,251.71166184027777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S0,270.6098884722222
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S0,304.86344100694447
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S0,297.5495314583333
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S0,320.6264849305556
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S0,330.3154868402778
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S0,306.7449471527778
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S0,299.90023395833333
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S0,293.65458406249996
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S0,302.1614614930556
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S0,307.5359454861111
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S0,295.0771057291667
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S0,306.02497222222223
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S0,280.88275408333334
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S0,289.82569843749997
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S0,285.51097336805555
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S0,297.58383019444443
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S0,297.2368174027778
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S0,308.76657635416666
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S0,274.3190581076389
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S0,272.22244725694446
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S0,277.79522499999996
+Chile,peak_margin,Peak demand capacity margin,%,2025,S0,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S0,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S0,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S0,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S0,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S0,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S0,27.450239458333332
+Chile,peak_margin,Peak demand capacity margin,%,2032,S0,32.677248354166665
+Chile,peak_margin,Peak demand capacity margin,%,2033,S0,24.292436895833333
+Chile,peak_margin,Peak demand capacity margin,%,2034,S0,19.527577291666667
+Chile,peak_margin,Peak demand capacity margin,%,2035,S0,24.763837395833335
+Chile,peak_margin,Peak demand capacity margin,%,2036,S0,23.997857895833334
+Chile,peak_margin,Peak demand capacity margin,%,2037,S0,22.450298395833332
+Chile,peak_margin,Peak demand capacity margin,%,2038,S0,18.197159583333335
+Chile,peak_margin,Peak demand capacity margin,%,2039,S0,14.378557645833334
+Chile,peak_margin,Peak demand capacity margin,%,2040,S0,18.105690208333332
+Chile,peak_margin,Peak demand capacity margin,%,2041,S0,14.0285765
+Chile,peak_margin,Peak demand capacity margin,%,2042,S0,17.561752062500002
+Chile,peak_margin,Peak demand capacity margin,%,2043,S0,16.892157833333332
+Chile,peak_margin,Peak demand capacity margin,%,2044,S0,16.608070729166666
+Chile,peak_margin,Peak demand capacity margin,%,2045,S0,12.086770954166667
+Chile,peak_margin,Peak demand capacity margin,%,2046,S0,11.90970031875
+Chile,peak_margin,Peak demand capacity margin,%,2047,S0,7.749668297916667
+Chile,peak_margin,Peak demand capacity margin,%,2048,S0,15.919718354166667
+Chile,peak_margin,Peak demand capacity margin,%,2049,S0,15.859680770833334
+Chile,peak_margin,Peak demand capacity margin,%,2050,S0,12.991959
+Chile,installed_capacity,Total installed capacity,GW,2025,S1,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S1,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S1,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S1,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S1,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S1,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S1,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2032,S1,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2033,S1,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2034,S1,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2035,S1,48.067387
+Chile,installed_capacity,Total installed capacity,GW,2036,S1,54.489555
+Chile,installed_capacity,Total installed capacity,GW,2037,S1,56.714733
+Chile,installed_capacity,Total installed capacity,GW,2038,S1,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2039,S1,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2040,S1,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2041,S1,63.802486
+Chile,installed_capacity,Total installed capacity,GW,2042,S1,63.802486
+Chile,installed_capacity,Total installed capacity,GW,2043,S1,69.950623
+Chile,installed_capacity,Total installed capacity,GW,2044,S1,73.030746
+Chile,installed_capacity,Total installed capacity,GW,2045,S1,76.610222
+Chile,installed_capacity,Total installed capacity,GW,2046,S1,76.610222
+Chile,installed_capacity,Total installed capacity,GW,2047,S1,80.434998
+Chile,installed_capacity,Total installed capacity,GW,2048,S1,80.434998
+Chile,installed_capacity,Total installed capacity,GW,2049,S1,92.560257
+Chile,installed_capacity,Total installed capacity,GW,2050,S1,92.560257
+Chile,total_transmission,Total transmission line length,thousand km,2025,S1,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S1,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S1,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S1,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S1,26.840893
+Chile,total_transmission,Total transmission line length,thousand km,2030,S1,27.229086
+Chile,total_transmission,Total transmission line length,thousand km,2031,S1,29.822113
+Chile,total_transmission,Total transmission line length,thousand km,2032,S1,30.227490000000003
+Chile,total_transmission,Total transmission line length,thousand km,2033,S1,37.196207
+Chile,total_transmission,Total transmission line length,thousand km,2034,S1,38.334621
+Chile,total_transmission,Total transmission line length,thousand km,2035,S1,39.65160899999999
+Chile,total_transmission,Total transmission line length,thousand km,2036,S1,40.926125
+Chile,total_transmission,Total transmission line length,thousand km,2037,S1,41.998449
+Chile,total_transmission,Total transmission line length,thousand km,2038,S1,43.333516
+Chile,total_transmission,Total transmission line length,thousand km,2039,S1,44.38809
+Chile,total_transmission,Total transmission line length,thousand km,2040,S1,45.438578
+Chile,total_transmission,Total transmission line length,thousand km,2041,S1,46.570152
+Chile,total_transmission,Total transmission line length,thousand km,2042,S1,47.741484
+Chile,total_transmission,Total transmission line length,thousand km,2043,S1,49.128043
+Chile,total_transmission,Total transmission line length,thousand km,2044,S1,50.568836000000005
+Chile,total_transmission,Total transmission line length,thousand km,2045,S1,52.880848
+Chile,total_transmission,Total transmission line length,thousand km,2046,S1,54.442164
+Chile,total_transmission,Total transmission line length,thousand km,2047,S1,56.068008
+Chile,total_transmission,Total transmission line length,thousand km,2048,S1,58.670891000000005
+Chile,total_transmission,Total transmission line length,thousand km,2049,S1,60.469855
+Chile,total_transmission,Total transmission line length,thousand km,2050,S1,60.480117
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S1,251.90173603125
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S1,236.1024207638889
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S1,237.21937071875
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S1,241.03738499652778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S1,251.71166184027777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S1,270.6098884722222
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S1,305.5059901736111
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S1,330.11978149305554
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S1,344.1706290972222
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S1,341.2451848263889
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S1,348.6308797916667
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S1,344.991856875
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S1,311.23123079861114
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S1,306.6899745138889
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S1,302.0962040277778
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S1,307.58170131944445
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S1,315.9757461111111
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S1,310.34419256944443
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S1,319.01596090277775
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S1,302.73486685069446
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S1,311.590574875
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S1,311.98992524305555
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S1,317.54575284027777
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S1,321.6585983784722
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S1,330.56621916666666
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S1,285.44075833333335
+Chile,peak_margin,Peak demand capacity margin,%,2025,S1,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S1,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S1,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S1,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S1,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S1,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S1,27.1441104375
+Chile,peak_margin,Peak demand capacity margin,%,2032,S1,18.505690375
+Chile,peak_margin,Peak demand capacity margin,%,2033,S1,11.502191602083334
+Chile,peak_margin,Peak demand capacity margin,%,2034,S1,16.587918854166666
+Chile,peak_margin,Peak demand capacity margin,%,2035,S1,10.958669252083332
+Chile,peak_margin,Peak demand capacity margin,%,2036,S1,9.696995539583334
+Chile,peak_margin,Peak demand capacity margin,%,2037,S1,15.914057791666666
+Chile,peak_margin,Peak demand capacity margin,%,2038,S1,15.406291145833334
+Chile,peak_margin,Peak demand capacity margin,%,2039,S1,14.192118979166667
+Chile,peak_margin,Peak demand capacity margin,%,2040,S1,10.428032360416667
+Chile,peak_margin,Peak demand capacity margin,%,2041,S1,6.755788945833333
+Chile,peak_margin,Peak demand capacity margin,%,2042,S1,9.329712304166668
+Chile,peak_margin,Peak demand capacity margin,%,2043,S1,5.323292710416667
+Chile,peak_margin,Peak demand capacity margin,%,2044,S1,8.508935589583333
+Chile,peak_margin,Peak demand capacity margin,%,2045,S1,7.884299093749999
+Chile,peak_margin,Peak demand capacity margin,%,2046,S1,7.528431279166667
+Chile,peak_margin,Peak demand capacity margin,%,2047,S1,3.4435814395833333
+Chile,peak_margin,Peak demand capacity margin,%,2048,S1,3.1741936395833332
+Chile,peak_margin,Peak demand capacity margin,%,2049,S1,-0.4119730844416667
+Chile,peak_margin,Peak demand capacity margin,%,2050,S1,8.4564418
+Chile,installed_capacity,Total installed capacity,GW,2025,S2,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S2,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S2,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S2,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S2,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S2,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S2,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2032,S2,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2033,S2,48.067387
+Chile,installed_capacity,Total installed capacity,GW,2034,S2,54.489555
+Chile,installed_capacity,Total installed capacity,GW,2035,S2,56.714733
+Chile,installed_capacity,Total installed capacity,GW,2036,S2,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2037,S2,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2038,S2,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2039,S2,63.802746
+Chile,installed_capacity,Total installed capacity,GW,2040,S2,63.802746
+Chile,installed_capacity,Total installed capacity,GW,2041,S2,69.954651
+Chile,installed_capacity,Total installed capacity,GW,2042,S2,73.056053
+Chile,installed_capacity,Total installed capacity,GW,2043,S2,76.641106
+Chile,installed_capacity,Total installed capacity,GW,2044,S2,76.641106
+Chile,installed_capacity,Total installed capacity,GW,2045,S2,80.479118
+Chile,installed_capacity,Total installed capacity,GW,2046,S2,80.479118
+Chile,installed_capacity,Total installed capacity,GW,2047,S2,92.566246
+Chile,installed_capacity,Total installed capacity,GW,2048,S2,97.193352
+Chile,installed_capacity,Total installed capacity,GW,2049,S2,97.193352
+Chile,installed_capacity,Total installed capacity,GW,2050,S2,97.193352
+Chile,total_transmission,Total transmission line length,thousand km,2025,S2,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S2,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S2,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S2,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S2,26.840893
+Chile,total_transmission,Total transmission line length,thousand km,2030,S2,27.229086
+Chile,total_transmission,Total transmission line length,thousand km,2031,S2,34.19841
+Chile,total_transmission,Total transmission line length,thousand km,2032,S2,35.31425
+Chile,total_transmission,Total transmission line length,thousand km,2033,S2,38.940062
+Chile,total_transmission,Total transmission line length,thousand km,2034,S2,40.367734
+Chile,total_transmission,Total transmission line length,thousand km,2035,S2,41.445461
+Chile,total_transmission,Total transmission line length,thousand km,2036,S2,42.524046999999996
+Chile,total_transmission,Total transmission line length,thousand km,2037,S2,43.576906
+Chile,total_transmission,Total transmission line length,thousand km,2038,S2,44.621281
+Chile,total_transmission,Total transmission line length,thousand km,2039,S2,45.684445
+Chile,total_transmission,Total transmission line length,thousand km,2040,S2,47.056602
+Chile,total_transmission,Total transmission line length,thousand km,2041,S2,48.385195
+Chile,total_transmission,Total transmission line length,thousand km,2042,S2,49.825019999999995
+Chile,total_transmission,Total transmission line length,thousand km,2043,S2,51.270941
+Chile,total_transmission,Total transmission line length,thousand km,2044,S2,52.805082
+Chile,total_transmission,Total transmission line length,thousand km,2045,S2,54.399141
+Chile,total_transmission,Total transmission line length,thousand km,2046,S2,56.06057
+Chile,total_transmission,Total transmission line length,thousand km,2047,S2,58.29382
+Chile,total_transmission,Total transmission line length,thousand km,2048,S2,60.136160000000004
+Chile,total_transmission,Total transmission line length,thousand km,2049,S2,62.514969
+Chile,total_transmission,Total transmission line length,thousand km,2050,S2,62.52523
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S2,251.90173603125
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S2,236.1024207638889
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S2,237.21937071875
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S2,241.03738499652778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S2,251.71166184027777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S2,270.6098884722222
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S2,304.8130064930555
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S2,294.74927375
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S2,315.4696026388889
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S2,330.2960255208333
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S2,306.64407350694444
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S2,299.79935395833337
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S2,293.60285500000003
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S2,301.6452611111111
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S2,307.04182541666665
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S2,292.85185722222224
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S2,303.77828482638887
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S2,281.52223750694446
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S2,290.68549932291666
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S2,284.03514052083335
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S2,296.50692953819447
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S2,296.9947150729167
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S2,308.10874336805557
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S2,276.92812746180556
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S2,267.9181995520833
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S2,272.6110416666667
+Chile,peak_margin,Peak demand capacity margin,%,2025,S2,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S2,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S2,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S2,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S2,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S2,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S2,27.450239458333332
+Chile,peak_margin,Peak demand capacity margin,%,2032,S2,32.677248354166665
+Chile,peak_margin,Peak demand capacity margin,%,2033,S2,24.292436895833333
+Chile,peak_margin,Peak demand capacity margin,%,2034,S2,19.527577291666667
+Chile,peak_margin,Peak demand capacity margin,%,2035,S2,24.763837395833335
+Chile,peak_margin,Peak demand capacity margin,%,2036,S2,23.997857729166668
+Chile,peak_margin,Peak demand capacity margin,%,2037,S2,22.4502964375
+Chile,peak_margin,Peak demand capacity margin,%,2038,S2,18.197157666666666
+Chile,peak_margin,Peak demand capacity margin,%,2039,S2,14.378555562499999
+Chile,peak_margin,Peak demand capacity margin,%,2040,S2,18.105674041666667
+Chile,peak_margin,Peak demand capacity margin,%,2041,S2,14.0285406875
+Chile,peak_margin,Peak demand capacity margin,%,2042,S2,17.560796625
+Chile,peak_margin,Peak demand capacity margin,%,2043,S2,16.8917261875
+Chile,peak_margin,Peak demand capacity margin,%,2044,S2,16.608447
+Chile,peak_margin,Peak demand capacity margin,%,2045,S2,12.087136452083334
+Chile,peak_margin,Peak demand capacity margin,%,2046,S2,11.910236414583332
+Chile,peak_margin,Peak demand capacity margin,%,2047,S2,7.7501932374999996
+Chile,peak_margin,Peak demand capacity margin,%,2048,S2,15.920681666666667
+Chile,peak_margin,Peak demand capacity margin,%,2049,S2,15.860161791666668
+Chile,peak_margin,Peak demand capacity margin,%,2050,S2,12.992429999999999
+Chile,installed_capacity,Total installed capacity,GW,2025,S3,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S3,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S3,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S3,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S3,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S3,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S3,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2032,S3,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2033,S3,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2034,S3,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2035,S3,48.067387
+Chile,installed_capacity,Total installed capacity,GW,2036,S3,54.489555
+Chile,installed_capacity,Total installed capacity,GW,2037,S3,56.714733
+Chile,installed_capacity,Total installed capacity,GW,2038,S3,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2039,S3,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2040,S3,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2041,S3,63.802494
+Chile,installed_capacity,Total installed capacity,GW,2042,S3,63.802494
+Chile,installed_capacity,Total installed capacity,GW,2043,S3,69.950668
+Chile,installed_capacity,Total installed capacity,GW,2044,S3,73.030701
+Chile,installed_capacity,Total installed capacity,GW,2045,S3,76.610085
+Chile,installed_capacity,Total installed capacity,GW,2046,S3,76.610085
+Chile,installed_capacity,Total installed capacity,GW,2047,S3,80.451843
+Chile,installed_capacity,Total installed capacity,GW,2048,S3,80.451843
+Chile,installed_capacity,Total installed capacity,GW,2049,S3,92.566299
+Chile,installed_capacity,Total installed capacity,GW,2050,S3,92.566299
+Chile,total_transmission,Total transmission line length,thousand km,2025,S3,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S3,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S3,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S3,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S3,26.840893
+Chile,total_transmission,Total transmission line length,thousand km,2030,S3,27.229086
+Chile,total_transmission,Total transmission line length,thousand km,2031,S3,27.633793
+Chile,total_transmission,Total transmission line length,thousand km,2032,S3,28.03917
+Chile,total_transmission,Total transmission line length,thousand km,2033,S3,37.196207
+Chile,total_transmission,Total transmission line length,thousand km,2034,S3,38.334621
+Chile,total_transmission,Total transmission line length,thousand km,2035,S3,39.65160899999999
+Chile,total_transmission,Total transmission line length,thousand km,2036,S3,40.926125
+Chile,total_transmission,Total transmission line length,thousand km,2037,S3,41.998449
+Chile,total_transmission,Total transmission line length,thousand km,2038,S3,43.07671499999999
+Chile,total_transmission,Total transmission line length,thousand km,2039,S3,44.131293
+Chile,total_transmission,Total transmission line length,thousand km,2040,S3,45.438578
+Chile,total_transmission,Total transmission line length,thousand km,2041,S3,46.570164
+Chile,total_transmission,Total transmission line length,thousand km,2042,S3,47.741578000000004
+Chile,total_transmission,Total transmission line length,thousand km,2043,S3,49.128051
+Chile,total_transmission,Total transmission line length,thousand km,2044,S3,50.568769999999994
+Chile,total_transmission,Total transmission line length,thousand km,2045,S3,52.065801
+Chile,total_transmission,Total transmission line length,thousand km,2046,S3,53.626965
+Chile,total_transmission,Total transmission line length,thousand km,2047,S3,56.111238
+Chile,total_transmission,Total transmission line length,thousand km,2048,S3,57.80543
+Chile,total_transmission,Total transmission line length,thousand km,2049,S3,59.594676
+Chile,total_transmission,Total transmission line length,thousand km,2050,S3,59.604938000000004
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S3,251.90173603125
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S3,236.1024207638889
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S3,237.21937071875
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S3,241.03738499652778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S3,251.71166184027777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S3,270.6098884722222
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S3,305.45555552083334
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S3,327.38403666666665
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S3,340.8074348611111
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S3,338.94322833333337
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S3,349.05589656250004
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S3,345.15808795138895
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S3,311.3381682638889
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S3,307.77645583333333
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S3,302.30409371527776
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S3,306.94229010416666
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S3,315.7929317708333
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S3,311.6267254861111
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S3,319.06245447916666
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S3,304.67930488194446
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S3,313.21578429861114
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S3,313.3178159722222
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S3,323.19213658333337
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S3,324.82317905208333
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S3,333.41664875
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S3,297.9761916666667
+Chile,peak_margin,Peak demand capacity margin,%,2025,S3,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S3,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S3,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S3,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S3,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S3,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S3,27.1441104375
+Chile,peak_margin,Peak demand capacity margin,%,2032,S3,18.505690375
+Chile,peak_margin,Peak demand capacity margin,%,2033,S3,11.502191602083334
+Chile,peak_margin,Peak demand capacity margin,%,2034,S3,16.587918854166666
+Chile,peak_margin,Peak demand capacity margin,%,2035,S3,10.958669252083332
+Chile,peak_margin,Peak demand capacity margin,%,2036,S3,9.696995227083333
+Chile,peak_margin,Peak demand capacity margin,%,2037,S3,15.914052374999999
+Chile,peak_margin,Peak demand capacity margin,%,2038,S3,15.406280208333333
+Chile,peak_margin,Peak demand capacity margin,%,2039,S3,14.192100416666667
+Chile,peak_margin,Peak demand capacity margin,%,2040,S3,10.428014235416667
+Chile,peak_margin,Peak demand capacity margin,%,2041,S3,6.755773108333333
+Chile,peak_margin,Peak demand capacity margin,%,2042,S3,9.329733854166667
+Chile,peak_margin,Peak demand capacity margin,%,2043,S3,5.323220264583333
+Chile,peak_margin,Peak demand capacity margin,%,2044,S3,8.506701383333333
+Chile,peak_margin,Peak demand capacity margin,%,2045,S3,7.880633120833334
+Chile,peak_margin,Peak demand capacity margin,%,2046,S3,7.5236259375
+Chile,peak_margin,Peak demand capacity margin,%,2047,S3,3.4396991312500003
+Chile,peak_margin,Peak demand capacity margin,%,2048,S3,3.186983629166667
+Chile,peak_margin,Peak demand capacity margin,%,2049,S3,-0.40014961453333336
+Chile,peak_margin,Peak demand capacity margin,%,2050,S3,8.4574372
+Chile,installed_capacity,Total installed capacity,GW,2025,S4,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S4,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S4,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S4,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S4,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S4,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S4,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2032,S4,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2033,S4,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2034,S4,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2035,S4,48.067406
+Chile,installed_capacity,Total installed capacity,GW,2036,S4,54.489616
+Chile,installed_capacity,Total installed capacity,GW,2037,S4,56.71476
+Chile,installed_capacity,Total installed capacity,GW,2038,S4,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2039,S4,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2040,S4,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2041,S4,63.803349
+Chile,installed_capacity,Total installed capacity,GW,2042,S4,63.803349
+Chile,installed_capacity,Total installed capacity,GW,2043,S4,69.950294
+Chile,installed_capacity,Total installed capacity,GW,2044,S4,73.03183
+Chile,installed_capacity,Total installed capacity,GW,2045,S4,76.612274
+Chile,installed_capacity,Total installed capacity,GW,2046,S4,76.612274
+Chile,installed_capacity,Total installed capacity,GW,2047,S4,80.441971
+Chile,installed_capacity,Total installed capacity,GW,2048,S4,80.441971
+Chile,installed_capacity,Total installed capacity,GW,2049,S4,92.536453
+Chile,installed_capacity,Total installed capacity,GW,2050,S4,92.536453
+Chile,total_transmission,Total transmission line length,thousand km,2025,S4,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S4,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S4,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S4,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S4,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2030,S4,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2031,S4,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2032,S4,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2033,S4,35.670582
+Chile,total_transmission,Total transmission line length,thousand km,2034,S4,36.613434
+Chile,total_transmission,Total transmission line length,thousand km,2035,S4,37.898394999999994
+Chile,total_transmission,Total transmission line length,thousand km,2036,S4,39.083468999999994
+Chile,total_transmission,Total transmission line length,thousand km,2037,S4,39.928289
+Chile,total_transmission,Total transmission line length,thousand km,2038,S4,40.857941
+Chile,total_transmission,Total transmission line length,thousand km,2039,S4,41.807109
+Chile,total_transmission,Total transmission line length,thousand km,2040,S4,43.109379000000004
+Chile,total_transmission,Total transmission line length,thousand km,2041,S4,44.227449
+Chile,total_transmission,Total transmission line length,thousand km,2042,S4,45.080605000000006
+Chile,total_transmission,Total transmission line length,thousand km,2043,S4,46.450969
+Chile,total_transmission,Total transmission line length,thousand km,2044,S4,47.652483999999994
+Chile,total_transmission,Total transmission line length,thousand km,2045,S4,48.972641
+Chile,total_transmission,Total transmission line length,thousand km,2046,S4,50.30175
+Chile,total_transmission,Total transmission line length,thousand km,2047,S4,52.145434
+Chile,total_transmission,Total transmission line length,thousand km,2048,S4,55.024633
+Chile,total_transmission,Total transmission line length,thousand km,2049,S4,56.806652
+Chile,total_transmission,Total transmission line length,thousand km,2050,S4,56.806652
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S4,252.1030402152778
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S4,235.94723721875002
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S4,237.12676190277776
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S4,241.3105691527778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S4,251.30121552777777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S4,269.95377236111113
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S4,304.5179251736111
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S4,327.1423620138889
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S4,339.66025065972224
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S4,338.2834056944444
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S4,347.8057831944445
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S4,343.72891965277773
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S4,306.1171501041667
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S4,301.93987114583337
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S4,297.9755936458333
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S4,302.61475260416665
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S4,310.74517600694446
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S4,305.4029724652778
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S4,312.3469422569445
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S4,299.80575084375
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S4,308.3855973090278
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S4,305.3478238541667
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S4,315.59625927430557
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S4,313.79819461805556
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S4,318.7934726666667
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S4,277.7921433333334
+Chile,peak_margin,Peak demand capacity margin,%,2025,S4,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S4,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S4,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S4,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S4,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S4,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S4,27.1441104375
+Chile,peak_margin,Peak demand capacity margin,%,2032,S4,18.505690375
+Chile,peak_margin,Peak demand capacity margin,%,2033,S4,11.502191664583334
+Chile,peak_margin,Peak demand capacity margin,%,2034,S4,16.587919645833335
+Chile,peak_margin,Peak demand capacity margin,%,2035,S4,10.958671414583334
+Chile,peak_margin,Peak demand capacity margin,%,2036,S4,9.6970307125
+Chile,peak_margin,Peak demand capacity margin,%,2037,S4,15.914142270833333
+Chile,peak_margin,Peak demand capacity margin,%,2038,S4,15.406312125
+Chile,peak_margin,Peak demand capacity margin,%,2039,S4,14.19220175
+Chile,peak_margin,Peak demand capacity margin,%,2040,S4,10.428112422916668
+Chile,peak_margin,Peak demand capacity margin,%,2041,S4,6.755894064583333
+Chile,peak_margin,Peak demand capacity margin,%,2042,S4,9.330450052083334
+Chile,peak_margin,Peak demand capacity margin,%,2043,S4,5.323733741666667
+Chile,peak_margin,Peak demand capacity margin,%,2044,S4,8.503273429166667
+Chile,peak_margin,Peak demand capacity margin,%,2045,S4,7.877921404166667
+Chile,peak_margin,Peak demand capacity margin,%,2046,S4,7.531174572916666
+Chile,peak_margin,Peak demand capacity margin,%,2047,S4,3.446418445833333
+Chile,peak_margin,Peak demand capacity margin,%,2048,S4,3.1814771166666667
+Chile,peak_margin,Peak demand capacity margin,%,2049,S4,-0.405870033816875
+Chile,peak_margin,Peak demand capacity margin,%,2050,S4,8.4419176
+Chile,installed_capacity,Total installed capacity,GW,2025,S5,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S5,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S5,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S5,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S5,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S5,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S5,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2032,S5,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2033,S5,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2034,S5,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2035,S5,48.067387
+Chile,installed_capacity,Total installed capacity,GW,2036,S5,54.489555
+Chile,installed_capacity,Total installed capacity,GW,2037,S5,56.714733
+Chile,installed_capacity,Total installed capacity,GW,2038,S5,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2039,S5,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2040,S5,58.536251
+Chile,installed_capacity,Total installed capacity,GW,2041,S5,63.802494
+Chile,installed_capacity,Total installed capacity,GW,2042,S5,63.802494
+Chile,installed_capacity,Total installed capacity,GW,2043,S5,69.950668
+Chile,installed_capacity,Total installed capacity,GW,2044,S5,73.030701
+Chile,installed_capacity,Total installed capacity,GW,2045,S5,76.610085
+Chile,installed_capacity,Total installed capacity,GW,2046,S5,76.610085
+Chile,installed_capacity,Total installed capacity,GW,2047,S5,80.451881
+Chile,installed_capacity,Total installed capacity,GW,2048,S5,80.451881
+Chile,installed_capacity,Total installed capacity,GW,2049,S5,92.566315
+Chile,installed_capacity,Total installed capacity,GW,2050,S5,92.566315
+Chile,total_transmission,Total transmission line length,thousand km,2025,S5,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S5,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S5,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S5,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S5,26.840893
+Chile,total_transmission,Total transmission line length,thousand km,2030,S5,27.229086
+Chile,total_transmission,Total transmission line length,thousand km,2031,S5,27.633793
+Chile,total_transmission,Total transmission line length,thousand km,2032,S5,28.03917
+Chile,total_transmission,Total transmission line length,thousand km,2033,S5,37.196207
+Chile,total_transmission,Total transmission line length,thousand km,2034,S5,38.334621
+Chile,total_transmission,Total transmission line length,thousand km,2035,S5,39.65160899999999
+Chile,total_transmission,Total transmission line length,thousand km,2036,S5,40.926125
+Chile,total_transmission,Total transmission line length,thousand km,2037,S5,41.998449
+Chile,total_transmission,Total transmission line length,thousand km,2038,S5,43.07671499999999
+Chile,total_transmission,Total transmission line length,thousand km,2039,S5,44.131293
+Chile,total_transmission,Total transmission line length,thousand km,2040,S5,45.181777000000004
+Chile,total_transmission,Total transmission line length,thousand km,2041,S5,46.313362999999995
+Chile,total_transmission,Total transmission line length,thousand km,2042,S5,47.484777
+Chile,total_transmission,Total transmission line length,thousand km,2043,S5,48.871254
+Chile,total_transmission,Total transmission line length,thousand km,2044,S5,50.311969
+Chile,total_transmission,Total transmission line length,thousand km,2045,S5,51.809
+Chile,total_transmission,Total transmission line length,thousand km,2046,S5,53.370163999999995
+Chile,total_transmission,Total transmission line length,thousand km,2047,S5,55.56558999999999
+Chile,total_transmission,Total transmission line length,thousand km,2048,S5,57.259773
+Chile,total_transmission,Total transmission line length,thousand km,2049,S5,59.049086
+Chile,total_transmission,Total transmission line length,thousand km,2050,S5,59.059348
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S5,251.90173603125
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S5,236.1024207638889
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S5,237.21937071875
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S5,241.03738499652778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S5,251.71166184027777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S5,270.6098884722222
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S5,305.45555552083334
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S5,327.38403666666665
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S5,340.8074348611111
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S5,338.94322833333337
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S5,349.05589656250004
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S5,345.15808795138895
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S5,311.3381682638889
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S5,307.77645583333333
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S5,302.08494152777774
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S5,307.16320302083335
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S5,315.9224003472222
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S5,311.3778663888889
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S5,318.9087316319445
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S5,304.9109559826389
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S5,313.1518333263889
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S5,308.17014674305557
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S5,318.0493179027778
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S5,322.57415756250003
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S5,332.0489325069445
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S5,298.78682
+Chile,peak_margin,Peak demand capacity margin,%,2025,S5,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S5,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S5,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S5,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S5,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S5,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S5,27.1441104375
+Chile,peak_margin,Peak demand capacity margin,%,2032,S5,18.505690375
+Chile,peak_margin,Peak demand capacity margin,%,2033,S5,11.502191602083334
+Chile,peak_margin,Peak demand capacity margin,%,2034,S5,16.587918854166666
+Chile,peak_margin,Peak demand capacity margin,%,2035,S5,10.958669252083332
+Chile,peak_margin,Peak demand capacity margin,%,2036,S5,9.696995227083333
+Chile,peak_margin,Peak demand capacity margin,%,2037,S5,15.914052374999999
+Chile,peak_margin,Peak demand capacity margin,%,2038,S5,15.406280208333333
+Chile,peak_margin,Peak demand capacity margin,%,2039,S5,14.192100416666667
+Chile,peak_margin,Peak demand capacity margin,%,2040,S5,10.428014235416667
+Chile,peak_margin,Peak demand capacity margin,%,2041,S5,6.755773108333333
+Chile,peak_margin,Peak demand capacity margin,%,2042,S5,9.329733854166667
+Chile,peak_margin,Peak demand capacity margin,%,2043,S5,5.323220327083333
+Chile,peak_margin,Peak demand capacity margin,%,2044,S5,8.506703147916665
+Chile,peak_margin,Peak demand capacity margin,%,2045,S5,7.88063930625
+Chile,peak_margin,Peak demand capacity margin,%,2046,S5,7.523640220833333
+Chile,peak_margin,Peak demand capacity margin,%,2047,S5,3.439714475
+Chile,peak_margin,Peak demand capacity margin,%,2048,S5,3.1870339875
+Chile,peak_margin,Peak demand capacity margin,%,2049,S5,-0.4001021995458333
+Chile,peak_margin,Peak demand capacity margin,%,2050,S5,8.4574617
+Chile,installed_capacity,Total installed capacity,GW,2025,S6,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S6,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S6,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S6,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S6,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S6,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S6,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2032,S6,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2033,S6,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2034,S6,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2035,S6,48.067406
+Chile,installed_capacity,Total installed capacity,GW,2036,S6,54.489616
+Chile,installed_capacity,Total installed capacity,GW,2037,S6,56.71476
+Chile,installed_capacity,Total installed capacity,GW,2038,S6,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2039,S6,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2040,S6,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2041,S6,63.803349
+Chile,installed_capacity,Total installed capacity,GW,2042,S6,63.803349
+Chile,installed_capacity,Total installed capacity,GW,2043,S6,69.950294
+Chile,installed_capacity,Total installed capacity,GW,2044,S6,73.03183
+Chile,installed_capacity,Total installed capacity,GW,2045,S6,76.612274
+Chile,installed_capacity,Total installed capacity,GW,2046,S6,76.612274
+Chile,installed_capacity,Total installed capacity,GW,2047,S6,80.441971
+Chile,installed_capacity,Total installed capacity,GW,2048,S6,80.441971
+Chile,installed_capacity,Total installed capacity,GW,2049,S6,92.536301
+Chile,installed_capacity,Total installed capacity,GW,2050,S6,92.536301
+Chile,total_transmission,Total transmission line length,thousand km,2025,S6,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S6,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S6,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S6,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S6,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2030,S6,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2031,S6,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2032,S6,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2033,S6,35.670582
+Chile,total_transmission,Total transmission line length,thousand km,2034,S6,36.613434
+Chile,total_transmission,Total transmission line length,thousand km,2035,S6,37.898394999999994
+Chile,total_transmission,Total transmission line length,thousand km,2036,S6,39.083468999999994
+Chile,total_transmission,Total transmission line length,thousand km,2037,S6,39.928289
+Chile,total_transmission,Total transmission line length,thousand km,2038,S6,40.857941
+Chile,total_transmission,Total transmission line length,thousand km,2039,S6,41.807109
+Chile,total_transmission,Total transmission line length,thousand km,2040,S6,42.852578
+Chile,total_transmission,Total transmission line length,thousand km,2041,S6,43.970652
+Chile,total_transmission,Total transmission line length,thousand km,2042,S6,44.823809000000004
+Chile,total_transmission,Total transmission line length,thousand km,2043,S6,46.194168
+Chile,total_transmission,Total transmission line length,thousand km,2044,S6,47.395684
+Chile,total_transmission,Total transmission line length,thousand km,2045,S6,48.715824
+Chile,total_transmission,Total transmission line length,thousand km,2046,S6,50.044902
+Chile,total_transmission,Total transmission line length,thousand km,2047,S6,51.888586000000004
+Chile,total_transmission,Total transmission line length,thousand km,2048,S6,55.281266
+Chile,total_transmission,Total transmission line length,thousand km,2049,S6,57.063453
+Chile,total_transmission,Total transmission line length,thousand km,2050,S6,57.063453
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S6,252.1030402152778
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S6,235.94723721875002
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S6,237.12676190277776
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S6,241.3105691527778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S6,251.30121552777777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S6,269.95377236111113
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S6,304.5179251736111
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S6,327.1423620138889
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S6,339.66025065972224
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S6,338.2834056944444
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S6,347.8057831944445
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S6,343.72891965277773
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S6,306.1171501041667
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S6,301.93987114583337
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S6,297.9518748611111
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S6,302.80077708333334
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S6,310.8622252777778
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S6,305.5454447222222
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S6,312.7195948958333
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S6,299.74442385069443
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S6,308.02079524652777
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S6,305.52868630902776
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S6,315.67240905555553
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S6,313.4980728611111
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S6,318.50234882638887
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S6,275.93372
+Chile,peak_margin,Peak demand capacity margin,%,2025,S6,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S6,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S6,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S6,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S6,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S6,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S6,27.1441104375
+Chile,peak_margin,Peak demand capacity margin,%,2032,S6,18.505690375
+Chile,peak_margin,Peak demand capacity margin,%,2033,S6,11.502191664583334
+Chile,peak_margin,Peak demand capacity margin,%,2034,S6,16.587919645833335
+Chile,peak_margin,Peak demand capacity margin,%,2035,S6,10.958671414583334
+Chile,peak_margin,Peak demand capacity margin,%,2036,S6,9.6970307125
+Chile,peak_margin,Peak demand capacity margin,%,2037,S6,15.914142270833333
+Chile,peak_margin,Peak demand capacity margin,%,2038,S6,15.406312125
+Chile,peak_margin,Peak demand capacity margin,%,2039,S6,14.19220175
+Chile,peak_margin,Peak demand capacity margin,%,2040,S6,10.428112422916668
+Chile,peak_margin,Peak demand capacity margin,%,2041,S6,6.755894064583333
+Chile,peak_margin,Peak demand capacity margin,%,2042,S6,9.330450052083334
+Chile,peak_margin,Peak demand capacity margin,%,2043,S6,5.323733845833334
+Chile,peak_margin,Peak demand capacity margin,%,2044,S6,8.503276027083333
+Chile,peak_margin,Peak demand capacity margin,%,2045,S6,7.877930420833334
+Chile,peak_margin,Peak demand capacity margin,%,2046,S6,7.5311988479166665
+Chile,peak_margin,Peak demand capacity margin,%,2047,S6,3.4464420270833336
+Chile,peak_margin,Peak demand capacity margin,%,2048,S6,3.181504927083333
+Chile,peak_margin,Peak demand capacity margin,%,2049,S6,-0.4060582744814583
+Chile,peak_margin,Peak demand capacity margin,%,2050,S6,8.4367916
+Chile,installed_capacity,Total installed capacity,GW,2025,S7,39.112919
+Chile,installed_capacity,Total installed capacity,GW,2026,S7,40.621017
+Chile,installed_capacity,Total installed capacity,GW,2027,S7,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2028,S7,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2029,S7,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2030,S7,40.798019
+Chile,installed_capacity,Total installed capacity,GW,2031,S7,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2032,S7,46.691006
+Chile,installed_capacity,Total installed capacity,GW,2033,S7,48.067406
+Chile,installed_capacity,Total installed capacity,GW,2034,S7,54.489616
+Chile,installed_capacity,Total installed capacity,GW,2035,S7,56.71476
+Chile,installed_capacity,Total installed capacity,GW,2036,S7,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2037,S7,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2038,S7,58.53635
+Chile,installed_capacity,Total installed capacity,GW,2039,S7,63.803661
+Chile,installed_capacity,Total installed capacity,GW,2040,S7,63.803661
+Chile,installed_capacity,Total installed capacity,GW,2041,S7,69.955948
+Chile,installed_capacity,Total installed capacity,GW,2042,S7,73.057312
+Chile,installed_capacity,Total installed capacity,GW,2043,S7,76.652618
+Chile,installed_capacity,Total installed capacity,GW,2044,S7,76.652618
+Chile,installed_capacity,Total installed capacity,GW,2045,S7,80.508514
+Chile,installed_capacity,Total installed capacity,GW,2046,S7,80.508514
+Chile,installed_capacity,Total installed capacity,GW,2047,S7,92.606476
+Chile,installed_capacity,Total installed capacity,GW,2048,S7,97.231995
+Chile,installed_capacity,Total installed capacity,GW,2049,S7,97.231995
+Chile,installed_capacity,Total installed capacity,GW,2050,S7,97.231995
+Chile,total_transmission,Total transmission line length,thousand km,2025,S7,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2026,S7,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2027,S7,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2028,S7,26.588291
+Chile,total_transmission,Total transmission line length,thousand km,2029,S7,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2030,S7,26.751881
+Chile,total_transmission,Total transmission line length,thousand km,2031,S7,35.50482
+Chile,total_transmission,Total transmission line length,thousand km,2032,S7,36.215262
+Chile,total_transmission,Total transmission line length,thousand km,2033,S7,37.255852
+Chile,total_transmission,Total transmission line length,thousand km,2034,S7,38.562184
+Chile,total_transmission,Total transmission line length,thousand km,2035,S7,39.399097999999995
+Chile,total_transmission,Total transmission line length,thousand km,2036,S7,40.310777
+Chile,total_transmission,Total transmission line length,thousand km,2037,S7,41.256273
+Chile,total_transmission,Total transmission line length,thousand km,2038,S7,42.295746
+Chile,total_transmission,Total transmission line length,thousand km,2039,S7,43.353906
+Chile,total_transmission,Total transmission line length,thousand km,2040,S7,44.18868
+Chile,total_transmission,Total transmission line length,thousand km,2041,S7,45.47791
+Chile,total_transmission,Total transmission line length,thousand km,2042,S7,46.700367
+Chile,total_transmission,Total transmission line length,thousand km,2043,S7,48.011457
+Chile,total_transmission,Total transmission line length,thousand km,2044,S7,49.297285
+Chile,total_transmission,Total transmission line length,thousand km,2045,S7,52.053641000000006
+Chile,total_transmission,Total transmission line length,thousand km,2046,S7,53.49575
+Chile,total_transmission,Total transmission line length,thousand km,2047,S7,55.22973
+Chile,total_transmission,Total transmission line length,thousand km,2048,S7,56.571258
+Chile,total_transmission,Total transmission line length,thousand km,2049,S7,58.73975
+Chile,total_transmission,Total transmission line length,thousand km,2050,S7,58.749824000000004
+Chile,electricity_price,Average electricity price,USD/MWh,2025,S7,252.1030402152778
+Chile,electricity_price,Average electricity price,USD/MWh,2026,S7,235.94723721875002
+Chile,electricity_price,Average electricity price,USD/MWh,2027,S7,237.12676190277776
+Chile,electricity_price,Average electricity price,USD/MWh,2028,S7,241.3105691527778
+Chile,electricity_price,Average electricity price,USD/MWh,2029,S7,251.30121552777777
+Chile,electricity_price,Average electricity price,USD/MWh,2030,S7,269.95377236111113
+Chile,electricity_price,Average electricity price,USD/MWh,2031,S7,303.8865714236111
+Chile,electricity_price,Average electricity price,USD/MWh,2032,S7,296.74631635416665
+Chile,electricity_price,Average electricity price,USD/MWh,2033,S7,319.9126880555555
+Chile,electricity_price,Average electricity price,USD/MWh,2034,S7,329.51336038194444
+Chile,electricity_price,Average electricity price,USD/MWh,2035,S7,300.85874138888886
+Chile,electricity_price,Average electricity price,USD/MWh,2036,S7,294.7376509027778
+Chile,electricity_price,Average electricity price,USD/MWh,2037,S7,290.3689293055556
+Chile,electricity_price,Average electricity price,USD/MWh,2038,S7,299.02041461805555
+Chile,electricity_price,Average electricity price,USD/MWh,2039,S7,304.10518638888885
+Chile,electricity_price,Average electricity price,USD/MWh,2040,S7,293.2070038888889
+Chile,electricity_price,Average electricity price,USD/MWh,2041,S7,302.1508140625
+Chile,electricity_price,Average electricity price,USD/MWh,2042,S7,276.8887121423611
+Chile,electricity_price,Average electricity price,USD/MWh,2043,S7,283.48135081597223
+Chile,electricity_price,Average electricity price,USD/MWh,2044,S7,276.40523911111114
+Chile,electricity_price,Average electricity price,USD/MWh,2045,S7,286.6188919965278
+Chile,electricity_price,Average electricity price,USD/MWh,2046,S7,289.23017159722224
+Chile,electricity_price,Average electricity price,USD/MWh,2047,S7,298.84516430208333
+Chile,electricity_price,Average electricity price,USD/MWh,2048,S7,265.1102945104167
+Chile,electricity_price,Average electricity price,USD/MWh,2049,S7,263.51342781249997
+Chile,electricity_price,Average electricity price,USD/MWh,2050,S7,267.732415
+Chile,peak_margin,Peak demand capacity margin,%,2025,S7,56.31867735416666
+Chile,peak_margin,Peak demand capacity margin,%,2026,S7,56.27686941666667
+Chile,peak_margin,Peak demand capacity margin,%,2027,S7,53.67283008333334
+Chile,peak_margin,Peak demand capacity margin,%,2028,S7,50.25052283333333
+Chile,peak_margin,Peak demand capacity margin,%,2029,S7,45.56553310416667
+Chile,peak_margin,Peak demand capacity margin,%,2030,S7,37.232841875
+Chile,peak_margin,Peak demand capacity margin,%,2031,S7,27.450239458333332
+Chile,peak_margin,Peak demand capacity margin,%,2032,S7,32.67724847916667
+Chile,peak_margin,Peak demand capacity margin,%,2033,S7,24.29243764583333
+Chile,peak_margin,Peak demand capacity margin,%,2034,S7,19.527614083333333
+Chile,peak_margin,Peak demand capacity margin,%,2035,S7,24.7639413125
+Chile,peak_margin,Peak demand capacity margin,%,2036,S7,23.997910020833334
+Chile,peak_margin,Peak demand capacity margin,%,2037,S7,22.450449458333335
+Chile,peak_margin,Peak demand capacity margin,%,2038,S7,18.197305375
+Chile,peak_margin,Peak demand capacity margin,%,2039,S7,14.378716083333332
+Chile,peak_margin,Peak demand capacity margin,%,2040,S7,18.10665422916667
+Chile,peak_margin,Peak demand capacity margin,%,2041,S7,14.029457666666667
+Chile,peak_margin,Peak demand capacity margin,%,2042,S7,17.560326520833332
+Chile,peak_margin,Peak demand capacity margin,%,2043,S7,16.888998604166666
+Chile,peak_margin,Peak demand capacity margin,%,2044,S7,16.615208624999998
+Chile,peak_margin,Peak demand capacity margin,%,2045,S7,12.093993227083333
+Chile,peak_margin,Peak demand capacity margin,%,2046,S7,11.933527408333333
+Chile,peak_margin,Peak demand capacity margin,%,2047,S7,7.7725426437500005
+Chile,peak_margin,Peak demand capacity margin,%,2048,S7,15.941123291666665
+Chile,peak_margin,Peak demand capacity margin,%,2049,S7,15.8750109375
+Chile,peak_margin,Peak demand capacity margin,%,2050,S7,13.006967

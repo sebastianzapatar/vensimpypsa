@@ -218,6 +218,7 @@ Input sheets and their primary roles:
 | Article item | Experiment | Results folder | Produced by |
 |---|---|---|---|
 | Table 3 (scenario indicators); Section 5.7 and Supplementary Appendix J (horizon) | S0–S7 with horizon forced to 7 years (H7, identical to the implemented rule) and to 1 year (H1) — 32 runs | `results/H_horizon_table3/` | `python analysis/summarise_horizon.py results/H_horizon_table3` |
+| Scenario figures (capacity and line length in Section 5; price and margin in the Supplement) | annual series of the H7 runs | `results/H_horizon_table3/annual_results.csv` | `python paper_scripts/build_annual_results.py`, then `python paper_scripts/plot_scenarios.py` |
 | Section 5.2, Supplementary delay-sweep figure and coefficients | B1: 5 × 5 factorial sweep of generation and transmission delay increments — 50 runs | `results/B1_delay_sweep/` | `python paper_scripts/analyse_b1.py` |
 | Section 5.5 hydrology; Supplementary hydrology table | B6: wet / median / dry inflows on S0, S3, S6 — 18 runs | `results/B6_hydrology/` | `python paper_scripts/analyse_b6_v4.py` |
 | Supplementary Appendix C.4 (extreme-condition tests) | V4: six tests per country — 12 runs | `results/V4_extreme_conditions/` | `python paper_scripts/analyse_b6_v4.py` |
