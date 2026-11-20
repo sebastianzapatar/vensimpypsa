@@ -1,0 +1,2 @@
+run_id,scenario,Total Generation Capacity,Total Transmission,Total Interconnection Capacity,Capacity Margin[f0],Aggregated Generation Tariff[f0],Congestion Tariff[f0],Total New Investment,Total System Cost,Min Availability Margin,Mean Availability Margin,Monthly Mean Generation Price[f0]
+run_00001,S0,97.19287109375,63035.02734375,18716.525390625,2.0911691188812256,854.0001831054688,0.0,8112.9912109375,262236.71875,0.12991958856582642,0.6265270113945007,148.55584716796875

@@ -222,6 +222,7 @@ Input sheets and their primary roles:
 | Section 5.2, Supplementary delay-sweep figure and coefficients | B1: 5 × 5 factorial sweep of generation and transmission delay increments — 50 runs | `results/B1_delay_sweep/` | `python paper_scripts/analyse_b1.py` |
 | Section 5.5 hydrology; Supplementary hydrology table | B6: wet / median / dry inflows on S0, S3, S6 — 18 runs | `results/B6_hydrology/` | `python paper_scripts/analyse_b6_v4.py` |
 | Supplementary Appendix C.4 (extreme-condition tests) | V4: six tests per country — 12 runs | `results/V4_extreme_conditions/` | `python paper_scripts/analyse_b6_v4.py` |
+| Supplementary Appendix C.4 (diagnosis of the renewable-availability test, response R1.1) | V4.1 shock and S0 rerun with hourly margins saved — 4 runs (`run_v4diag.sh`) | `results/V4_1_diagnosis/` | `python paper_scripts/diagnose_v4_1.py` |
 | Section 5.5 parameter uncertainty; Supplementary Appendix C.6 | B5: Latin hypercube, 100 samples per country, seed 2026 | `results/B5_latin_hypercube/` | `python paper_scripts/make_sensitivity_tables_b5.py` and `plot_sensitivity_b5.py` |
 | Supplementary Appendix C.2 (units check, corrected cost) | A1: S0 and S3 with distributed capacity saved — 4 runs | `results/A1_units_der_cost/` | `python analysis/der_cost_check.py` |
 
